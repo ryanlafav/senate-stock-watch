@@ -1,0 +1,21 @@
+{
+  "pipeline_version": "1.0.0",
+  "last_run_finished_utc": "2026-08-08T04:55:10.304874+00:00",
+  "last_roster_refresh_utc": "2026-08-08T04:55:10.288180+00:00",
+  "last_trades_refresh_utc": "2026-08-08T04:49:25.589151+00:00",
+  "lookback_days": 45,
+  "counts": {
+    "members": 100,
+    "committees": 21,
+    "trades_total": 1129,
+    "flags_total": 28,
+    "tickers_classified": 389,
+    "tickers_unclassified": 38
+  },
+  "warnings": [],
+  "sources": {
+    "efd": "https://efdsearch.senate.gov/search/",
+    "legislators": "https://github.com/unitedstates/congress-legislators",
+    "sec": "https://www.sec.gov/"
+  }
+}

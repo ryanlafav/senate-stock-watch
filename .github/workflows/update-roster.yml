@@ -1,0 +1,50 @@
+name: Update roster (full refresh)
+
+# Infrequent, heavier refresh: resyncs the senator/committee/committee
+# membership roster from unitedstates/congress-legislators. This only needs
+# to run when a new Congress is sworn in, a senator leaves/is replaced
+# mid-term, or committee assignments change - the weekly schedule covers
+# that, and the manual "Run workflow" button lets you force it immediately
+# after a known change instead of waiting.
+on:
+  schedule:
+    - cron: "37 11 * * 1"
+  workflow_dispatch: {}
+
+concurrency:
+  group: data-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-roster:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run roster pipeline
+        run: python scripts/run_pipeline.py --mode roster
+
+      - name: Commit updated data
+        run: |
+          if git status --porcelain docs/data | grep -q .; then
+            git config user.name "senate-stock-watch-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add docs/data/
+            COUNTS=$(python -c "import json; c=json.load(open('docs/data/meta.json'))['counts']; print(f\"members={c['members']} committees={c['committees']}\")")
+            git commit -m "data: automated roster refresh ($COUNTS)"
+            git pull --rebase
+            git push
+          else
+            echo "No data changes - skipping commit."
+          fi

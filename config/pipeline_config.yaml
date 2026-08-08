@@ -1,0 +1,51 @@
+# Runtime configuration for the data pipeline.
+# Kept separate from code so thresholds can be tuned without touching scripts.
+
+flagging:
+  # A trade is "recently bought" if its disclosure is at most this many days old.
+  # Anchored to disclosure date (not trade date) since that's when the trade
+  # becomes publicly knowable, and it matches the STOCK Act's own ~45-day
+  # disclosure deadline.
+  lookback_days: 45
+  # Transaction types (as they appear on eFD PTRs) eligible for flagging.
+  included_transaction_types:
+    - Purchase
+
+efd:
+  base_url: "https://efdsearch.senate.gov"
+  # PTR report_type code used by efdsearch's search form (name="report_type" value="11")
+  ptr_report_type: 11
+  request_delay_seconds: 1.5
+  page_length: 100
+  max_requests_per_run: 400
+  # On a bulk trades run, how many days to look back from the last known
+  # disclosure date to re-query (covers late-arriving/backfilled filings).
+  overlap_days: 10
+  # Hard floor so a first-ever run doesn't try to walk back to 2012.
+  initial_backfill_days: 90
+  user_agent: "SenateStockWatch/1.0 (research/civic-transparency tool; contact: ryanlafave11@gmail.com)"
+
+sec:
+  ticker_map_url: "https://www.sec.gov/files/company_tickers.json"
+  submissions_url_template: "https://data.sec.gov/submissions/CIK{cik10}.json"
+  ticker_map_refresh_days: 7
+  # Re-attempt tickers previously not found in SEC's map after this many days
+  # (their map is updated periodically and a "not found" ticker may later appear).
+  retry_not_found_after_days: 30
+  request_delay_seconds: 0.5
+  user_agent: "SenateStockWatch/1.0 (research/civic-transparency tool; contact: ryanlafave11@gmail.com)"
+
+legislators:
+  base_raw_url: "https://raw.githubusercontent.com/unitedstates/congress-legislators/main"
+  user_agent: "SenateStockWatch/1.0 (research/civic-transparency tool; contact: ryanlafave11@gmail.com)"
+
+# Sanity guard for 02_scrape_efd_trades.py. The PRIMARY guard is response-shape
+# validation (the DataTables JSON must contain draw/recordsTotal/data keys, and
+# each row must have the expected column count) - that alone catches a site
+# redesign. Row-count is only used as a SECONDARY signal, since real filing
+# volume legitimately drops to zero during recess periods, so it must not be a
+# simple hard floor. A run is only flagged as anomalous if the total filings
+# seen is zero for a lookback window that historically always has at least
+# some filings (see min_days_of_history_before_zero_is_suspicious).
+sanity_guard:
+  min_days_of_history_before_zero_is_suspicious: 30

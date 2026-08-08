@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-08-08T04:55:10.288180+00:00",
+  "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committees-current.yaml",
+  "committees": [
+    {
+      "committee_id": "SCNC",
+      "name": "United States Senate Caucus on International Narcotics Control",
+      "chamber": "senate",
+      "url": "http://www.drugcaucus.senate.gov/"
+    },
+    {
+      "committee_id": "SLET",
+      "name": "Senate Select Committee on Ethics",
+      "chamber": "senate",
+      "url": "http://www.ethics.senate.gov/"
+    },
+    {
+      "committee_id": "SLIA",
+      "name": "Senate Committee on Indian Affairs",
+      "chamber": "senate",
+      "url": "http://www.indian.senate.gov/"
+    },
+    {
+      "committee_id": "SLIN",
+      "name": "Senate Select Committee on Intelligence",
+      "chamber": "senate",
+      "url": "http://www.intelligence.senate.gov/"
+    },
+    {
+      "committee_id": "SPAG",
+      "name": "Senate Special Committee on Aging",
+      "chamber": "senate",
+      "url": "http://www.aging.senate.gov/"
+    },
+    {
+      "committee_id": "SSAF",
+      "name": "Senate Committee on Agriculture, Nutrition, and Forestry",
+      "chamber": "senate",
+      "url": "http://www.agriculture.senate.gov/"
+    },
+    {
+      "committee_id": "SSAP",
+      "name": "Senate Committee on Appropriations",
+      "chamber": "senate",
+      "url": "http://www.appropriations.senate.gov/"
+    },
+    {
+      "committee_id": "SSAS",
+      "name": "Senate Committee on Armed Services",
+      "chamber": "senate",
+      "url": "http://www.armed-services.senate.gov/"
+    },
+    {
+      "committee_id": "SSBK",
+      "name": "Senate Committee on Banking, Housing, and Urban Affairs",
+      "chamber": "senate",
+      "url": "http://banking.senate.gov/"
+    },
+    {
+      "committee_id": "SSBU",
+      "name": "Senate Committee on the Budget",
+      "chamber": "senate",
+      "url": "http://www.budget.senate.gov/"
+    },
+    {
+      "committee_id": "SSCM",
+      "name": "Senate Committee on Commerce, Science, and Transportation",
+      "chamber": "senate",
+      "url": "http://www.commerce.senate.gov/"
+    },
+    {
+      "committee_id": "SSEG",
+      "name": "Senate Committee on Energy and Natural Resources",
+      "chamber": "senate",
+      "url": "http://www.energy.senate.gov/"
+    },
+    {
+      "committee_id": "SSEV",
+      "name": "Senate Committee on Environment and Public Works",
+      "chamber": "senate",
+      "url": "http://www.epw.senate.gov/"
+    },
+    {
+      "committee_id": "SSFI",
+      "name": "Senate Committee on Finance",
+      "chamber": "senate",
+      "url": "http://www.finance.senate.gov/"
+    },
+    {
+      "committee_id": "SSFR",
+      "name": "Senate Committee on Foreign Relations",
+      "chamber": "senate",
+      "url": "http://www.foreign.senate.gov/"
+    },
+    {
+      "committee_id": "SSGA",
+      "name": "Senate Committee on Homeland Security and Governmental Affairs",
+      "chamber": "senate",
+      "url": "http://www.hsgac.senate.gov/"
+    },
+    {
+      "committee_id": "SSHR",
+      "name": "Senate Committee on Health, Education, Labor, and Pensions",
+      "chamber": "senate",
+      "url": "http://www.help.senate.gov/"
+    },
+    {
+      "committee_id": "SSJU",
+      "name": "Senate Committee on the Judiciary",
+      "chamber": "senate",
+      "url": "http://www.judiciary.senate.gov/"
+    },
+    {
+      "committee_id": "SSRA",
+      "name": "Senate Committee on Rules and Administration",
+      "chamber": "senate",
+      "url": "http://www.rules.senate.gov/"
+    },
+    {
+      "committee_id": "SSSB",
+      "name": "Senate Committee on Small Business and Entrepreneurship",
+      "chamber": "senate",
+      "url": "http://www.sbc.senate.gov/"
+    },
+    {
+      "committee_id": "SSVA",
+      "name": "Senate Committee on Veterans' Affairs",
+      "chamber": "senate",
+      "url": "http://www.veterans.senate.gov/"
+    }
+  ]
+}

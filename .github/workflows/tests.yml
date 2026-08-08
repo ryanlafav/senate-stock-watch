@@ -1,0 +1,26 @@
+name: Tests
+
+# Runs the fixture-based test suite on every PR. No live network calls here -
+# it never hits efdsearch.senate.gov, SEC EDGAR, or GitHub raw content, so
+# checks stay fast, deterministic, and don't hammer the real sites.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run pytest
+        run: pytest tests/ -v

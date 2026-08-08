@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Senate Stock Watch</title>
+  <meta name="description" content="Flags US Senate stock trades that fall within the industry jurisdiction of a committee the trading senator sits on." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-row">
+        <h1>Senate Stock Watch</h1>
+        <nav class="header-links">
+          <a href="methodology.html">Methodology &amp; limitations</a>
+          <a href="#" id="repo-link" target="_blank" rel="noopener">View on GitHub</a>
+        </nav>
+      </div>
+      <p class="disclaimer">
+        This tool flags topical overlap between a senator's disclosed stock purchases and the committees
+        they sit on. A flag is <strong>not an accusation of wrongdoing</strong> &mdash; it surfaces a
+        correlation worth a closer look. See the <a href="methodology.html">methodology page</a> for how
+        matching works and its limitations.
+      </p>
+      <div class="meta-row" id="meta-row">
+        <span><span class="dot"></span>Loading...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="view-tabs" role="tablist">
+      <button class="view-tab active" id="tab-flagged" data-view="flagged" role="tab" aria-selected="true">Flagged Trades</button>
+      <button class="view-tab" id="tab-all" data-view="all" role="tab" aria-selected="false">All Trades</button>
+    </div>
+
+    <div class="filter-bar" id="filter-bar">
+      <select id="filter-committee" aria-label="Filter by committee">
+        <option value="">All committees</option>
+      </select>
+      <select id="filter-party" aria-label="Filter by party">
+        <option value="">All parties</option>
+        <option value="D">Democrat</option>
+        <option value="R">Republican</option>
+        <option value="I">Independent</option>
+      </select>
+      <select id="filter-state" aria-label="Filter by state">
+        <option value="">All states</option>
+      </select>
+      <input type="text" id="filter-search" placeholder="Search senator or ticker" aria-label="Search senator or ticker" />
+      <label class="filter-checkbox">
+        <input type="checkbox" id="filter-confidence" />
+        High-confidence matches only
+      </label>
+      <div class="filter-spacer"></div>
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <div class="table-container">
+      <table id="data-table">
+        <thead id="table-head"></thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div class="empty-state" id="empty-state" hidden></div>
+      <div class="error-state" id="error-state" hidden></div>
+    </div>
+  </main>
+
+  <dialog id="detail-modal">
+    <div class="modal-inner" id="modal-body"></div>
+  </dialog>
+
+  <script src="js/data.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/detail.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

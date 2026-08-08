@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Methodology &amp; limitations - Senate Stock Watch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-row">
+        <h1>Methodology &amp; Limitations</h1>
+        <nav class="header-links">
+          <a href="index.html">&larr; Back to dashboard</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap prose">
+    <h2>What this site does</h2>
+    <p>
+      Senate Stock Watch flags a senator's disclosed stock purchase when it falls within an industry that a
+      committee they currently sit on has jurisdiction over. It exists to surface topical correlations worth a
+      closer look, not to accuse anyone of wrongdoing.
+    </p>
+
+    <h2>Where the data comes from</h2>
+    <p>
+      Every trade shown here is scraped directly from
+      <a href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener">efdsearch.senate.gov</a>,
+      the Senate's own official financial disclosure system, where senators file Periodic Transaction Reports
+      (PTRs) as required by the STOCK Act. Committee assignments come from the
+      <a href="https://github.com/unitedstates/congress-legislators" target="_blank" rel="noopener">unitedstates/congress-legislators</a>
+      open civic-data project. Each ticker's industry classification comes from
+      <a href="https://www.sec.gov/" target="_blank" rel="noopener">SEC EDGAR</a>'s SIC code for the issuing company.
+      Nothing here comes from a third-party paid data vendor.
+    </p>
+
+    <h2>How a "flag" is generated</h2>
+    <p>A trade is flagged when all of the following are true:</p>
+    <ul>
+      <li>It's a <strong>Purchase</strong> (sales are shown in the All Trades view but never flagged).</li>
+      <li>Its ticker was successfully classified with an SIC industry code by SEC EDGAR.</li>
+      <li>It was <strong>disclosed within the last 45 days</strong> - the same window the STOCK Act itself requires senators to disclose within, so this reflects the most recently public information.</li>
+      <li>The trading senator currently sits on a committee whose curated industry mapping matches that ticker's SIC code (or, as a fallback, a keyword in the asset's name).</li>
+    </ul>
+
+    <h2>The committee&rarr;industry mapping is a judgment call</h2>
+    <p>
+      There is no free, authoritative dataset that says "Committee X has jurisdiction over industry Y."
+      That mapping is hand-curated and maintained in
+      <code>config/committee_industry_map.yaml</code> in this project's GitHub repository, versioned like
+      code and open to review by anyone. Each mapping carries a <strong>confidence</strong> level (shown on
+      every flag) reflecting how cleanly that committee's real legislative jurisdiction maps onto a specific
+      set of industries. Committees whose jurisdiction is procedural or spans virtually every industry
+      (Appropriations, Budget, Judiciary, Rules, Small Business, and a few others) are deliberately excluded
+      from matching entirely, since forcing an industry mapping onto them would mostly produce noise.
+    </p>
+
+    <h2>Other limitations worth knowing</h2>
+    <ul>
+      <li><strong>Amounts are ranges, not exact figures.</strong> The STOCK Act only requires disclosure of a dollar range (e.g. "$1,001 - $15,000"), never the precise trade size.</li>
+      <li><strong>Disclosure can lag the actual trade by up to 45 days.</strong> The dashboard's recency is relative to disclosure date, not the date the trade actually happened.</li>
+      <li><strong>Some filings are scanned/handwritten rather than structured</strong> and can't be reliably auto-parsed. These show up as "unparsed" rather than being silently dropped.</li>
+      <li><strong>Not every ticker can be classified.</strong> Bonds, options, mutual funds, and some foreign issuers aren't in SEC's ticker map and are shown as "unclassified" rather than hidden.</li>
+      <li><strong>This project currently covers the Senate only.</strong> House disclosures are largely scanned/handwritten PDFs that can't be reliably parsed yet, so House data is not included.</li>
+    </ul>
+
+    <h2>Data freshness</h2>
+    <p>
+      Trade data refreshes automatically on a schedule (see the "Trades checked" timestamp on the dashboard).
+      The senator/committee roster refreshes separately and less often, since it only changes when a new
+      Congress is sworn in or committee assignments shift (see "Roster last verified").
+    </p>
+  </main>
+</body>
+</html>

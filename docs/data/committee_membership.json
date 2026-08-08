@@ -1,0 +1,2869 @@
+{
+  "generated_at": "2026-08-08T04:55:10.288180+00:00",
+  "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml",
+  "memberships": [
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "C001056",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "W000802",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "G000386",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "B001277",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "R000584",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "L000570",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SCNC",
+      "bioguide_id": "M001242",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "L000575",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "C001088",
+      "rank": 1,
+      "title": "Vice Chairman",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "R000584",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "S001194",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "F000463",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLET",
+      "bioguide_id": "S001181",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "M001153",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "S001194",
+      "rank": 1,
+      "title": "Vice Chairman",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "H001061",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "C000127",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "D000618",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "C001113",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "R000605",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "S001203",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "M000934",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "L000570",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIA",
+      "bioguide_id": "A000383",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "C001095",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "W000805",
+      "rank": 1,
+      "title": "Vice Chairman",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "R000584",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "W000779",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "C001035",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "H001046",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "C001056",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "K000383",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "M000934",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "B001267",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "L000575",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "G000555",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "R000605",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "O000174",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "Y000064",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "K000377",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "B001305",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "R000122",
+      "rank": 9,
+      "title": "Ex Officio",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "T000250",
+      "rank": 10,
+      "title": "Ex Officio",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "S000148",
+      "rank": 10,
+      "title": "Ex Officio",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SLIN",
+      "bioguide_id": "W000437",
+      "rank": 11,
+      "title": "Ex Officio",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "S001217",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "G000555",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "M001243",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "W000817",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "J000312",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "K000377",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "T000278",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "W000790",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "J000293",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "K000394",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "M001244",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "A000382",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SPAG",
+      "bioguide_id": "H001104",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "B001236",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "K000367",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "M000355",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "B001267",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "H001061",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "S001203",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "E000295",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "D000563",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "H001079",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "B001288",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "M001198",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "L000570",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "T000278",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "W000790",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "J000312",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "W000800",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "G000386",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "F000479",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "T000250",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "S001150",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "F000463",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "S001208",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAF",
+      "bioguide_id": "M000934",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "C001035",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M001111",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M000355",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "D000563",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M001153",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "R000122",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M000934",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "S001181",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "H001061",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M001176",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "B001236",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "C001088",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "C001047",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "S001194",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "K000393",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "B001230",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "H001079",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "M001169",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "H000601",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "V000128",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "B001319",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "H001046",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "F000463",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "P000595",
+      "rank": 12,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "R000605",
+      "rank": 13,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "G000555",
+      "rank": 13,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "H001104",
+      "rank": 14,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAP",
+      "bioguide_id": "O000174",
+      "rank": 14,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "W000437",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "R000122",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "F000463",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001181",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "C001095",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "G000555",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "R000605",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "B001277",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "E000295",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "H001042",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001198",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "K000384",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "C001096",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "K000383",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001217",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "W000817",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "T000278",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "P000595",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "B001305",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "D000622",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001227",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "R000608",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "B001299",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "K000377",
+      "rank": 12,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001232",
+      "rank": 13,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "S001208",
+      "rank": 13,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSAS",
+      "bioguide_id": "M001244",
+      "rank": 14,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "S001184",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "W000817",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "C000880",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "R000122",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "R000605",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "W000805",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "T000476",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "V000128",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "K000393",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "C001113",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "H000601",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "S001203",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "L000571",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "W000790",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "B001319",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "K000394",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "R000618",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "G000574",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "B001299",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "B001303",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "C001096",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "A000382",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "M001242",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBK",
+      "bioguide_id": "M001243",
+      "rank": 13,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "G000386",
+      "rank": 1,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "M001176",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "C000880",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "M001111",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "J000293",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "W000779",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "M001198",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "S000033",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "C001056",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "W000802",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "L000577",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "W000805",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "K000393",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "K000384",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "R000618",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "V000128",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "M001242",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "L000570",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "S001217",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSBU",
+      "bioguide_id": "P000145",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "C001098",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "C000127",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "T000250",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "K000367",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "W000437",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "S001194",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "F000463",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "M000133",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "M000934",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "P000595",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "S001198",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "B001230",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "B001243",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "D000622",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "Y000064",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "R000608",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "B001305",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "L000570",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "S001227",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "H000273",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "C001114",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "F000479",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "M001242",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "K000394",
+      "rank": 12,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "S001232",
+      "rank": 13,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "B001303",
+      "rank": 13,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "C001047",
+      "rank": 14,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSCM",
+      "bioguide_id": "L000571",
+      "rank": 15,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "L000577",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "H001046",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "B001261",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "W000779",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "R000584",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "C000127",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "D000618",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "H001042",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "C001095",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "K000383",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "M001243",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "C001113",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "J000312",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "H000273",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "C001075",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "P000145",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "H001079",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "G000574",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "M001153",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEG",
+      "bioguide_id": "H001061",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "C001047",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "W000802",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "C001096",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "S000033",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "L000571",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "M001176",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "C001114",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "M000133",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "S001198",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "K000377",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "R000618",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "P000145",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "W000437",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "S001150",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "B001236",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "B001303",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "H001104",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "A000382",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "C000880",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000779",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "G000386",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "C000127",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "C001056",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "B001267",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "T000250",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000805",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "S001184",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000802",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "C001075",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "H001076",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "L000575",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "C001113",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "D000618",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000817",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "Y000064",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "S000033",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "B001261",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "S001203",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "J000293",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "L000570",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "T000476",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000790",
+      "rank": 12,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "B001243",
+      "rank": 13,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "W000800",
+      "rank": 13,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFI",
+      "bioguide_id": "M001198",
+      "rank": 14,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "R000584",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "S001181",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "R000618",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "C001088",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "M001243",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "M001169",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "D000618",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "K000384",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "H000601",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "M001176",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "B001261",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "B001288",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "L000577",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "S001194",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "P000603",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "V000128",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "C001098",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "D000622",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "S001217",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "R000608",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "C001114",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSFR",
+      "bioguide_id": "C001056",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "P000603",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "P000595",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "J000293",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "H001076",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "L000575",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "B001277",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "S001217",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "F000479",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "H001089",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "K000394",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "M001242",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "G000574",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "E000295",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "S001208",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSGA",
+      "bioguide_id": "M001244",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "C001075",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "S000033",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "P000603",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M001111",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "C001035",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "B001230",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M001153",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M001169",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M001198",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "K000384",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "S001184",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "H001076",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "H001089",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "H000273",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "T000278",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M000133",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "B001299",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "K000394",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "H001104",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "B001303",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "M001244",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "A000382",
+      "rank": 11,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSHR",
+      "bioguide_id": "A000383",
+      "rank": 12,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "G000386",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "D000563",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "C001056",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "W000802",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "L000577",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "K000367",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "C001098",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "C001088",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "H001089",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "B001277",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "T000476",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "H001042",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "K000393",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "B001288",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "B001243",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "P000145",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "S001227",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "W000800",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "B001319",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "S001150",
+      "rank": 10,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "M001244",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "M000355",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "P000145",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "C001098",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "S000148",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "C001047",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "W000805",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "W000437",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "K000367",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "F000463",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "M001176",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "H001079",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "O000174",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "H000601",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "B001267",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "B001319",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "W000800",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSRA",
+      "bioguide_id": "B001236",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "E000295",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "M000133",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "R000584",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "C000127",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "P000603",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "S001181",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "S001184",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "B001288",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "Y000064",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "C001088",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "H001089",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "H001042",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "B001305",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "R000608",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "C001114",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "H000273",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "J000312",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "S001150",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSSB",
+      "bioguide_id": "H001104",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "M000934",
+      "rank": 1,
+      "title": "Chairman",
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "B001277",
+      "rank": 1,
+      "title": "Ranking Member",
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "B001236",
+      "rank": 2,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "M001111",
+      "rank": 2,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "C001075",
+      "rank": 3,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "S000033",
+      "rank": 3,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "T000476",
+      "rank": 4,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "H001042",
+      "rank": 4,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "S001198",
+      "rank": 5,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "H001076",
+      "rank": 5,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "B001243",
+      "rank": 6,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "K000383",
+      "rank": 6,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "C001096",
+      "rank": 7,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "D000622",
+      "rank": 7,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "T000278",
+      "rank": 8,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "G000574",
+      "rank": 8,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "B001299",
+      "rank": 9,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "S001208",
+      "rank": 9,
+      "title": null,
+      "party": "minority"
+    },
+    {
+      "committee_id": "SSVA",
+      "bioguide_id": "S001232",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
+    }
+  ]
+}

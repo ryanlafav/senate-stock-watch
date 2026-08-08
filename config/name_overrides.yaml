@@ -1,0 +1,18 @@
+# Manual overrides for joining eFD PTR filer names to a bioguide_id.
+#
+# 01_fetch_legislators.py normalizes each current senator's official name into
+# an "efd_search_name" guess (roughly "Last, First"). Most eFD filer names
+# match that automatically. When 02_scrape_efd_trades.py logs an "unmatched
+# filer name" warning in meta.json, add an entry here mapping the exact raw
+# name string as it appears on eFD to the correct bioguide_id, then re-run.
+#
+# Known edge cases to watch for: suffixes (Jr./III), hyphenated/maiden names,
+# a filer name that differs from the "official_full" name in
+# congress-legislators (e.g. nicknames), and name changes mid-term.
+#
+# Example (not a real correction, just illustrates the shape):
+# overrides:
+#   - efd_name_raw: "Smith, Bob Jr"
+#     bioguide_id: "S000001"
+
+overrides: []

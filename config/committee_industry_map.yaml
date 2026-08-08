@@ -1,0 +1,193 @@
+# THE core accuracy artifact of this project.
+#
+# There is no free, authoritative dataset that says "Senate Committee X has
+# jurisdiction over stock-market industry Y" - this mapping is a hand-curated
+# heuristic maintained by project contributors. Treat changes to this file
+# like code: open a PR, explain the reasoning, update `last_reviewed`.
+#
+# committee_id values are the `thomas_id` from unitedstates/congress-legislators
+# committees-current.yaml (verified against the live file on 2026-08-08 - the
+# current standing/select/special Senate committees are listed below; if a
+# committee_id appears in committee-membership-current.yaml but not here, the
+# pipeline treats it as excluded_from_matching by default and logs a warning).
+#
+# Each committee's `sic_prefixes` are SIC (Standard Industrial Classification)
+# code prefixes as reported by SEC EDGAR for a ticker's issuer. A trade is
+# considered "in a committee's jurisdiction" if the ticker's SIC code starts
+# with any of that committee's sic_prefixes, OR its asset name contains any of
+# `keywords` (case-insensitive substring, used sparingly as a fallback for
+# cases SIC alone won't catch well).
+#
+# `confidence` is shown directly in the UI per flag:
+#   high   - the committee's legislative jurisdiction maps cleanly onto a
+#            specific, well-defined set of industries.
+#   medium - real jurisdiction exists but is broader/less industry-specific,
+#            so matches should be read with more caution.
+#
+# `excluded_from_matching: true` is used deliberately for committees whose
+# jurisdiction is procedural, internal, or spans virtually all industries -
+# forcing an industry mapping for these would mostly generate false positives.
+# Every excluded committee has an `exclusion_reason` explaining the call.
+
+version: 1
+last_reviewed: "2026-08-08"
+
+mappings:
+  - committee_id: SSAF
+    committee_name: "Committee on Agriculture, Nutrition, and Forestry"
+    category: "Agriculture & Food"
+    sic_prefixes: ["01", "02", "07", "08", "09", "20", "287"]
+    keywords: ["agricultur", "farm", "crop", "livestock", "grain", "fertilizer"]
+    confidence: high
+
+  - committee_id: SSAP
+    committee_name: "Committee on Appropriations"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Jurisdiction is federal spending across every agency and industry;
+      an industry mapping here would match nearly any stock and add noise
+      rather than signal.
+
+  - committee_id: SSAS
+    committee_name: "Committee on Armed Services"
+    category: "Defense & Aerospace"
+    sic_prefixes: ["3489", "3721", "3724", "3728", "3760", "3761", "3764", "3812", "3489"]
+    keywords: ["defense", "aerospace", "military", "munitions", "shipbuilding"]
+    confidence: high
+
+  - committee_id: SSBK
+    committee_name: "Committee on Banking, Housing, and Urban Affairs"
+    category: "Banking, Housing & Financial Services"
+    sic_prefixes: ["60", "61", "62", "65", "6552", "6798"]
+    keywords: ["bank", "mortgage", "credit union", "thrift", "reit", "homebuilder"]
+    confidence: high
+
+  - committee_id: SSBU
+    committee_name: "Committee on the Budget"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Sets overall federal fiscal/budget resolutions; not tied to any
+      specific industry's regulatory jurisdiction.
+
+  - committee_id: SSCM
+    committee_name: "Committee on Commerce, Science, and Transportation"
+    category: "Commerce, Transportation & Technology"
+    sic_prefixes: ["45", "48", "401", "3711", "3760", "7370", "7372", "4832", "4833"]
+    keywords: ["airline", "broadcast", "telecom", "railroad", "automobile safety", "satellite"]
+    confidence: medium
+
+  - committee_id: SSEG
+    committee_name: "Committee on Energy and Natural Resources"
+    category: "Energy & Natural Resources"
+    sic_prefixes: ["10", "12", "13", "29", "49", "1040"]
+    keywords: ["oil", "gas", "coal", "mining", "utility", "renewable", "pipeline"]
+    confidence: high
+
+  - committee_id: SSEV
+    committee_name: "Committee on Environment and Public Works"
+    category: "Environment, Infrastructure & Utilities"
+    sic_prefixes: ["1600", "4213", "4941", "4959", "4911"]
+    keywords: ["waste management", "water utility", "construction", "infrastructure", "environmental services"]
+    confidence: medium
+
+  - committee_id: SSFI
+    committee_name: "Committee on Finance"
+    category: "Health Insurance, Trade & Tax-Related Finance"
+    sic_prefixes: ["6321", "6324"]
+    keywords: ["medicare", "medicaid", "health insurance", "pharmacy benefit"]
+    confidence: medium
+    note: >
+      Finance has very broad jurisdiction (all federal tax policy, trade,
+      Social Security, and Medicare/Medicaid). Scoped narrowly here to
+      health-insurance/entitlement-adjacent SIC codes to avoid effectively
+      matching the entire market; broader tax/trade jurisdiction is
+      intentionally not mapped to any industry.
+
+  - committee_id: SSFR
+    committee_name: "Committee on Foreign Relations"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Jurisdiction is diplomatic/foreign-policy oriented rather than tied to
+      a specific domestic industry sector; mapping it would require
+      guessing at company-level foreign exposure, which SIC codes can't do
+      reliably.
+
+  - committee_id: SSGA
+    committee_name: "Committee on Homeland Security and Governmental Affairs"
+    category: "Homeland Security & Government Contracting"
+    sic_prefixes: ["7372", "7379", "7381"]
+    keywords: ["cybersecurity", "border security", "federal contractor", "government contractor"]
+    confidence: medium
+
+  - committee_id: SSHR
+    committee_name: "Committee on Health, Education, Labor, and Pensions"
+    category: "Health, Pharma, Biotech & Education"
+    sic_prefixes: ["283", "8000", "8011", "8060", "8071", "8731", "822"]
+    keywords: ["pharmaceutical", "biotech", "hospital", "health insurer", "for-profit education"]
+    confidence: high
+
+  - committee_id: SSJU
+    committee_name: "Committee on the Judiciary"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Jurisdiction is legal/procedural (courts, antitrust enforcement,
+      immigration, civil liberties) rather than industry-specific; matching
+      would produce excessive false positives across the whole market
+      given antitrust's breadth.
+
+  - committee_id: SSRA
+    committee_name: "Committee on Rules and Administration"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Governs internal Senate operations and federal election
+      administration; not an industry sector.
+
+  - committee_id: SSSB
+    committee_name: "Committee on Small Business and Entrepreneurship"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Jurisdiction spans small businesses across every industry rather
+      than any specific sector, so any stock purchase could spuriously
+      match.
+
+  - committee_id: SSVA
+    committee_name: "Committee on Veterans' Affairs"
+    category: "Veterans Health & Services"
+    sic_prefixes: ["8000", "8051", "8060", "8093"]
+    keywords: ["veteran", "va hospital", "military healthcare"]
+    confidence: medium
+
+  - committee_id: SLIA
+    committee_name: "Committee on Indian Affairs"
+    category: "Tribal Affairs & Gaming"
+    sic_prefixes: ["7993"]
+    keywords: ["tribal", "casino", "gaming"]
+    confidence: medium
+
+  - committee_id: SLIN
+    committee_name: "Select Committee on Intelligence"
+    category: "Intelligence & Defense Contracting"
+    sic_prefixes: ["3812", "7379", "8742"]
+    keywords: ["intelligence", "surveillance", "defense contractor"]
+    confidence: medium
+
+  - committee_id: SPAG
+    committee_name: "Special Committee on Aging"
+    category: "Senior Health, Insurance & Long-Term Care"
+    sic_prefixes: ["8051", "2834", "6321"]
+    keywords: ["nursing home", "long-term care", "medicare", "senior living"]
+    confidence: medium
+
+  - committee_id: SLET
+    committee_name: "Select Committee on Ethics"
+    excluded_from_matching: true
+    exclusion_reason: >
+      Oversees Senate member conduct itself, not any external industry.
+
+  - committee_id: SCNC
+    committee_name: "Caucus on International Narcotics Control"
+    excluded_from_matching: true
+    exclusion_reason: >
+      An informal caucus (not a standing committee with legislative
+      jurisdiction) focused on drug policy broadly rather than a
+      tradeable industry sector.

@@ -1,0 +1,3307 @@
+{
+  "generated_at": "2026-08-08T04:50:34.485193+00:00",
+  "tickers": {
+    "A": {
+      "found": true,
+      "cik": "0001090872",
+      "company_name": "AGILENT TECHNOLOGIES, INC.",
+      "sic": "3826",
+      "sic_description": "Laboratory Analytical Instruments",
+      "last_checked": "2026-08-08"
+    },
+    "AAPL": {
+      "found": true,
+      "cik": "0000320193",
+      "company_name": "Apple Inc.",
+      "sic": "3571",
+      "sic_description": "Electronic Computers",
+      "last_checked": "2026-08-08"
+    },
+    "ABBV": {
+      "found": true,
+      "cik": "0001551152",
+      "company_name": "AbbVie Inc.",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "ABNB": {
+      "found": true,
+      "cik": "0001559720",
+      "company_name": "Airbnb, Inc.",
+      "sic": "7340",
+      "sic_description": "Services-To Dwellings & Other Buildings",
+      "last_checked": "2026-08-08"
+    },
+    "ABNFX": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "ABT": {
+      "found": true,
+      "cik": "0000001800",
+      "company_name": "ABBOTT LABORATORIES",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "ACGL": {
+      "found": true,
+      "cik": "0000947484",
+      "company_name": "ARCH CAPITAL GROUP LTD.",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "ACM": {
+      "found": true,
+      "cik": "0000868857",
+      "company_name": "AECOM",
+      "sic": "8711",
+      "sic_description": "Services-Engineering Services",
+      "last_checked": "2026-08-08"
+    },
+    "ACN": {
+      "found": true,
+      "cik": "0001467373",
+      "company_name": "Accenture plc",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "ADBE": {
+      "found": true,
+      "cik": "0000796343",
+      "company_name": "ADOBE INC.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "ADI": {
+      "found": true,
+      "cik": "0000006281",
+      "company_name": "ANALOG DEVICES INC",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "ADM": {
+      "found": true,
+      "cik": "0000007084",
+      "company_name": "Archer-Daniels-Midland Co",
+      "sic": "2070",
+      "sic_description": "Fats & Oils",
+      "last_checked": "2026-08-08"
+    },
+    "ADP": {
+      "found": true,
+      "cik": "0000008670",
+      "company_name": "AUTOMATIC DATA PROCESSING INC",
+      "sic": "7374",
+      "sic_description": "Services-Computer Processing & Data Preparation",
+      "last_checked": "2026-08-08"
+    },
+    "ADSK": {
+      "found": true,
+      "cik": "0000769397",
+      "company_name": "Autodesk, Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "AER": {
+      "found": true,
+      "cik": "0001378789",
+      "company_name": "AerCap Holdings N.V.",
+      "sic": "7359",
+      "sic_description": "Services-Equipment Rental & Leasing, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "AFL": {
+      "found": true,
+      "cik": "0000004977",
+      "company_name": "AFLAC INC",
+      "sic": "6321",
+      "sic_description": "Accident & Health Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "AGZ": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "AIG": {
+      "found": true,
+      "cik": "0000005272",
+      "company_name": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "AJG": {
+      "found": true,
+      "cik": "0000354190",
+      "company_name": "Arthur J. Gallagher & Co.",
+      "sic": "6411",
+      "sic_description": "Insurance Agents, Brokers & Service",
+      "last_checked": "2026-08-08"
+    },
+    "AKAM": {
+      "found": true,
+      "cik": "0001086222",
+      "company_name": "AKAMAI TECHNOLOGIES INC",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "ALB": {
+      "found": true,
+      "cik": "0000915913",
+      "company_name": "ALBEMARLE CORP",
+      "sic": "2821",
+      "sic_description": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+      "last_checked": "2026-08-08"
+    },
+    "ALC": {
+      "found": true,
+      "cik": "0001167379",
+      "company_name": "ALCON INC",
+      "sic": "3851",
+      "sic_description": "Ophthalmic Goods",
+      "last_checked": "2026-08-08"
+    },
+    "ALL": {
+      "found": true,
+      "cik": "0000899051",
+      "company_name": "ALLSTATE CORP",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "AMAT": {
+      "found": true,
+      "cik": "0000006951",
+      "company_name": "APPLIED MATERIALS INC /DE",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "AMCR": {
+      "found": true,
+      "cik": "0001748790",
+      "company_name": "Amcor plc",
+      "sic": "3990",
+      "sic_description": "Miscellaneous Manufacturing Industries",
+      "last_checked": "2026-08-08"
+    },
+    "AMD": {
+      "found": true,
+      "cik": "0000002488",
+      "company_name": "ADVANCED MICRO DEVICES INC",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "AME": {
+      "found": true,
+      "cik": "0001037868",
+      "company_name": "AMETEK INC/",
+      "sic": "3823",
+      "sic_description": "Industrial Instruments For Measurement, Display, and Control",
+      "last_checked": "2026-08-08"
+    },
+    "AMGN": {
+      "found": true,
+      "cik": "0000318154",
+      "company_name": "AMGEN INC",
+      "sic": "2836",
+      "sic_description": "Biological Products, (No Diagnostic Substances)",
+      "last_checked": "2026-08-08"
+    },
+    "AMP": {
+      "found": true,
+      "cik": "0000820027",
+      "company_name": "AMERIPRISE FINANCIAL INC",
+      "sic": "6282",
+      "sic_description": "Investment Advice",
+      "last_checked": "2026-08-08"
+    },
+    "AMT": {
+      "found": true,
+      "cik": "0001053507",
+      "company_name": "AMERICAN TOWER CORP /MA/",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "AMZN": {
+      "found": true,
+      "cik": "0001018724",
+      "company_name": "AMAZON COM INC",
+      "sic": "5961",
+      "sic_description": "Retail-Catalog & Mail-Order Houses",
+      "last_checked": "2026-08-08"
+    },
+    "ANET": {
+      "found": true,
+      "cik": "0001596532",
+      "company_name": "Arista Networks, Inc.",
+      "sic": "3576",
+      "sic_description": "Computer Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "AON": {
+      "found": true,
+      "cik": "0000315293",
+      "company_name": "Aon plc",
+      "sic": "6411",
+      "sic_description": "Insurance Agents, Brokers & Service",
+      "last_checked": "2026-08-08"
+    },
+    "APD": {
+      "found": true,
+      "cik": "0000002969",
+      "company_name": "Air Products & Chemicals, Inc.",
+      "sic": "2810",
+      "sic_description": "Industrial Inorganic Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "APH": {
+      "found": true,
+      "cik": "0000820313",
+      "company_name": "AMPHENOL CORP /DE/",
+      "sic": "3678",
+      "sic_description": "Electronic Connectors",
+      "last_checked": "2026-08-08"
+    },
+    "APO": {
+      "found": true,
+      "cik": "0001858681",
+      "company_name": "Apollo Global Management, Inc.",
+      "sic": "6282",
+      "sic_description": "Investment Advice",
+      "last_checked": "2026-08-08"
+    },
+    "APP": {
+      "found": true,
+      "cik": "0001751008",
+      "company_name": "AppLovin Corp",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "ARGX": {
+      "found": true,
+      "cik": "0001697862",
+      "company_name": "ARGENX SE",
+      "sic": "2836",
+      "sic_description": "Biological Products, (No Diagnostic Substances)",
+      "last_checked": "2026-08-08"
+    },
+    "ARKK": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "ASML": {
+      "found": true,
+      "cik": "0000937966",
+      "company_name": "ASML HOLDING NV",
+      "sic": "3559",
+      "sic_description": "Special Industry Machinery, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "ATO": {
+      "found": true,
+      "cik": "0000731802",
+      "company_name": "ATMOS ENERGY CORP",
+      "sic": "4924",
+      "sic_description": "Natural Gas Distribution",
+      "last_checked": "2026-08-08"
+    },
+    "AVB": {
+      "found": true,
+      "cik": "0000915912",
+      "company_name": "AVALONBAY COMMUNITIES INC",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "AVGO": {
+      "found": true,
+      "cik": "0001730168",
+      "company_name": "Broadcom Inc.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "AWK": {
+      "found": true,
+      "cik": "0001410636",
+      "company_name": "American Water Works Company, Inc.",
+      "sic": "4941",
+      "sic_description": "Water Supply",
+      "last_checked": "2026-08-08"
+    },
+    "AXON": {
+      "found": true,
+      "cik": "0001069183",
+      "company_name": "AXON ENTERPRISE, INC.",
+      "sic": "3480",
+      "sic_description": "Ordnance & Accessories, (No Vehicles/Guided Missiles)",
+      "last_checked": "2026-08-08"
+    },
+    "AXP": {
+      "found": true,
+      "cik": "0000004962",
+      "company_name": "AMERICAN EXPRESS CO",
+      "sic": "6199",
+      "sic_description": "Finance Services",
+      "last_checked": "2026-08-08"
+    },
+    "AZN": {
+      "found": true,
+      "cik": "0000901832",
+      "company_name": "ASTRAZENECA PLC",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "AZO": {
+      "found": true,
+      "cik": "0000866787",
+      "company_name": "AUTOZONE INC",
+      "sic": "5531",
+      "sic_description": "Retail-Auto & Home Supply Stores",
+      "last_checked": "2026-08-08"
+    },
+    "BA": {
+      "found": true,
+      "cik": "0000012927",
+      "company_name": "BOEING CO",
+      "sic": "3721",
+      "sic_description": "Aircraft",
+      "last_checked": "2026-08-08"
+    },
+    "BAC": {
+      "found": true,
+      "cik": "0000070858",
+      "company_name": "BANK OF AMERICA CORP /DE/",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "BBVA": {
+      "found": true,
+      "cik": "0000842180",
+      "company_name": "BANCO BILBAO VIZCAYA ARGENTARIA, S.A.",
+      "sic": "6029",
+      "sic_description": "Commercial Banks, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "BBY": {
+      "found": true,
+      "cik": "0000764478",
+      "company_name": "BEST BUY CO INC",
+      "sic": "5731",
+      "sic_description": "Retail-Radio, Tv & Consumer Electronics Stores",
+      "last_checked": "2026-08-08"
+    },
+    "BDX": {
+      "found": true,
+      "cik": "0000010795",
+      "company_name": "BECTON DICKINSON & CO",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "BEN": {
+      "found": true,
+      "cik": "0000038777",
+      "company_name": "FRANKLIN RESOURCES INC",
+      "sic": "6282",
+      "sic_description": "Investment Advice",
+      "last_checked": "2026-08-08"
+    },
+    "BG": {
+      "found": true,
+      "cik": "0001996862",
+      "company_name": "Bunge Global SA",
+      "sic": "2070",
+      "sic_description": "Fats & Oils",
+      "last_checked": "2026-08-08"
+    },
+    "BIIB": {
+      "found": true,
+      "cik": "0000875045",
+      "company_name": "BIOGEN INC.",
+      "sic": "2836",
+      "sic_description": "Biological Products, (No Diagnostic Substances)",
+      "last_checked": "2026-08-08"
+    },
+    "BKNG": {
+      "found": true,
+      "cik": "0001075531",
+      "company_name": "Booking Holdings Inc.",
+      "sic": "4700",
+      "sic_description": "Transportation Services",
+      "last_checked": "2026-08-08"
+    },
+    "BMY": {
+      "found": true,
+      "cik": "0000014272",
+      "company_name": "BRISTOL MYERS SQUIBB CO",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "BR": {
+      "found": true,
+      "cik": "0001383312",
+      "company_name": "BROADRIDGE FINANCIAL SOLUTIONS, INC.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "BRK.B": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "BRO": {
+      "found": true,
+      "cik": "0000079282",
+      "company_name": "BROWN & BROWN, INC.",
+      "sic": "6411",
+      "sic_description": "Insurance Agents, Brokers & Service",
+      "last_checked": "2026-08-08"
+    },
+    "BSX": {
+      "found": true,
+      "cik": "0000885725",
+      "company_name": "BOSTON SCIENTIFIC CORP",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "BTI": {
+      "found": true,
+      "cik": "0001303523",
+      "company_name": "British American Tobacco p.l.c.",
+      "sic": "2111",
+      "sic_description": "Cigarettes",
+      "last_checked": "2026-08-08"
+    },
+    "BUD": {
+      "found": true,
+      "cik": "0001668717",
+      "company_name": "Anheuser-Busch InBev SA/NV",
+      "sic": "2082",
+      "sic_description": "Malt Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "BX": {
+      "found": true,
+      "cik": "0001393818",
+      "company_name": "Blackstone Inc.",
+      "sic": "6282",
+      "sic_description": "Investment Advice",
+      "last_checked": "2026-08-08"
+    },
+    "BXP": {
+      "found": true,
+      "cik": "0001037540",
+      "company_name": "BXP, Inc.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "C": {
+      "found": true,
+      "cik": "0000831001",
+      "company_name": "CITIGROUP INC",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "CAG": {
+      "found": true,
+      "cik": "0000023217",
+      "company_name": "CONAGRA BRANDS INC.",
+      "sic": "2000",
+      "sic_description": "Food and Kindred Products",
+      "last_checked": "2026-08-08"
+    },
+    "CAH": {
+      "found": true,
+      "cik": "0000721371",
+      "company_name": "CARDINAL HEALTH INC",
+      "sic": "5122",
+      "sic_description": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+      "last_checked": "2026-08-08"
+    },
+    "CARR": {
+      "found": true,
+      "cik": "0001783180",
+      "company_name": "CARRIER GLOBAL Corp",
+      "sic": "3585",
+      "sic_description": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip",
+      "last_checked": "2026-08-08"
+    },
+    "CB": {
+      "found": true,
+      "cik": "0000896159",
+      "company_name": "Chubb Ltd",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "CBOE": {
+      "found": true,
+      "cik": "0001374310",
+      "company_name": "Cboe Global Markets, Inc.",
+      "sic": "6200",
+      "sic_description": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+      "last_checked": "2026-08-08"
+    },
+    "CBSH": {
+      "found": true,
+      "cik": "0000022356",
+      "company_name": "COMMERCE BANCSHARES INC /MO/",
+      "sic": "6022",
+      "sic_description": "State Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "CCEP": {
+      "found": true,
+      "cik": "0001650107",
+      "company_name": "COCA-COLA EUROPACIFIC PARTNERS plc",
+      "sic": "2086",
+      "sic_description": "Bottled & Canned Soft Drinks & Carbonated Waters",
+      "last_checked": "2026-08-08"
+    },
+    "CCI": {
+      "found": true,
+      "cik": "0001051470",
+      "company_name": "CROWN CASTLE INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "CCJ": {
+      "found": true,
+      "cik": "0001009001",
+      "company_name": "CAMECO CORP",
+      "sic": "1090",
+      "sic_description": "Miscellaneous Metal Ores",
+      "last_checked": "2026-08-08"
+    },
+    "CCL": {
+      "found": true,
+      "cik": "0000815097",
+      "company_name": "Carnival Corp Ltd.",
+      "sic": "4400",
+      "sic_description": "Water Transportation",
+      "last_checked": "2026-08-08"
+    },
+    "CDNS": {
+      "found": true,
+      "cik": "0000813672",
+      "company_name": "CADENCE DESIGN SYSTEMS INC",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "CF": {
+      "found": true,
+      "cik": "0001324404",
+      "company_name": "CF Industries Holdings, Inc.",
+      "sic": "2870",
+      "sic_description": "Agricultural Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "CHKP": {
+      "found": true,
+      "cik": "0001015922",
+      "company_name": "CHECK POINT SOFTWARE TECHNOLOGIES LTD",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "CHTR": {
+      "found": true,
+      "cik": "0001091667",
+      "company_name": "CHARTER COMMUNICATIONS, INC. /MO/",
+      "sic": "4841",
+      "sic_description": "Cable & Other Pay Television Services",
+      "last_checked": "2026-08-08"
+    },
+    "CI": {
+      "found": true,
+      "cik": "0001739940",
+      "company_name": "Cigna Group",
+      "sic": "6324",
+      "sic_description": "Hospital & Medical Service Plans",
+      "last_checked": "2026-08-08"
+    },
+    "CIEN": {
+      "found": true,
+      "cik": "0000936395",
+      "company_name": "CIENA CORP",
+      "sic": "3661",
+      "sic_description": "Telephone & Telegraph Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "CLF": {
+      "found": true,
+      "cik": "0000764065",
+      "company_name": "CLEVELAND-CLIFFS INC.",
+      "sic": "1000",
+      "sic_description": "Metal Mining",
+      "last_checked": "2026-08-08"
+    },
+    "CMBS": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "CMCSA": {
+      "found": true,
+      "cik": "0001166691",
+      "company_name": "COMCAST CORP",
+      "sic": "4841",
+      "sic_description": "Cable & Other Pay Television Services",
+      "last_checked": "2026-08-08"
+    },
+    "CME": {
+      "found": true,
+      "cik": "0001156375",
+      "company_name": "CME GROUP INC.",
+      "sic": "6200",
+      "sic_description": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+      "last_checked": "2026-08-08"
+    },
+    "COF": {
+      "found": true,
+      "cik": "0000927628",
+      "company_name": "CAPITAL ONE FINANCIAL CORP",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "COHR": {
+      "found": true,
+      "cik": "0000820318",
+      "company_name": "COHERENT CORP.",
+      "sic": "3827",
+      "sic_description": "Optical Instruments & Lenses",
+      "last_checked": "2026-08-08"
+    },
+    "COIN": {
+      "found": true,
+      "cik": "0001679788",
+      "company_name": "Coinbase Global, Inc.",
+      "sic": "6199",
+      "sic_description": "Finance Services",
+      "last_checked": "2026-08-08"
+    },
+    "COO": {
+      "found": true,
+      "cik": "0000711404",
+      "company_name": "COOPER COMPANIES, INC.",
+      "sic": "3851",
+      "sic_description": "Ophthalmic Goods",
+      "last_checked": "2026-08-08"
+    },
+    "COR": {
+      "found": true,
+      "cik": "0001140859",
+      "company_name": "Cencora, Inc.",
+      "sic": "5122",
+      "sic_description": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+      "last_checked": "2026-08-08"
+    },
+    "COST": {
+      "found": true,
+      "cik": "0000909832",
+      "company_name": "COSTCO WHOLESALE CORP /NEW",
+      "sic": "5331",
+      "sic_description": "Retail-Variety Stores",
+      "last_checked": "2026-08-08"
+    },
+    "CPB": {
+      "found": true,
+      "cik": "0000016732",
+      "company_name": "CAMPBELL'S Co",
+      "sic": "2000",
+      "sic_description": "Food and Kindred Products",
+      "last_checked": "2026-08-08"
+    },
+    "CPRT": {
+      "found": true,
+      "cik": "0000900075",
+      "company_name": "COPART INC",
+      "sic": "5500",
+      "sic_description": "Retail-Auto Dealers & Gasoline Stations",
+      "last_checked": "2026-08-08"
+    },
+    "CPT": {
+      "found": true,
+      "cik": "0000906345",
+      "company_name": "CAMDEN PROPERTY TRUST",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "CRM": {
+      "found": true,
+      "cik": "0001108524",
+      "company_name": "Salesforce, Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "CRWD": {
+      "found": true,
+      "cik": "0001535527",
+      "company_name": "CrowdStrike Holdings, Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "CSCO": {
+      "found": true,
+      "cik": "0000858877",
+      "company_name": "CISCO SYSTEMS, INC.",
+      "sic": "3576",
+      "sic_description": "Computer Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "CSX": {
+      "found": true,
+      "cik": "0000277948",
+      "company_name": "CSX CORP",
+      "sic": "4011",
+      "sic_description": "Railroads, Line-Haul Operating",
+      "last_checked": "2026-08-08"
+    },
+    "CTAS": {
+      "found": true,
+      "cik": "0000723254",
+      "company_name": "CINTAS CORP",
+      "sic": "2320",
+      "sic_description": "Men's & Boys' Furnishgs, Work Clothg, & Allied Garments",
+      "last_checked": "2026-08-08"
+    },
+    "CTSH": {
+      "found": true,
+      "cik": "0001058290",
+      "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
+      "sic": "7371",
+      "sic_description": "Services-Computer Programming Services",
+      "last_checked": "2026-08-08"
+    },
+    "CTVA": {
+      "found": true,
+      "cik": "0001755672",
+      "company_name": "Corteva, Inc.",
+      "sic": "0100",
+      "sic_description": "Agricultural Production-Crops",
+      "last_checked": "2026-08-08"
+    },
+    "CVS": {
+      "found": true,
+      "cik": "0000064803",
+      "company_name": "CVS HEALTH Corp",
+      "sic": "5912",
+      "sic_description": "Retail-Drug Stores and Proprietary Stores",
+      "last_checked": "2026-08-08"
+    },
+    "CVX": {
+      "found": true,
+      "cik": "0000093410",
+      "company_name": "CHEVRON CORP",
+      "sic": "2911",
+      "sic_description": "Petroleum Refining",
+      "last_checked": "2026-08-08"
+    },
+    "DASH": {
+      "found": true,
+      "cik": "0001792789",
+      "company_name": "DoorDash, Inc.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "DB": {
+      "found": true,
+      "cik": "0001159508",
+      "company_name": "DEUTSCHE BANK AKTIENGESELLSCHAFT",
+      "sic": "6022",
+      "sic_description": "State Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "DDOG": {
+      "found": true,
+      "cik": "0001561550",
+      "company_name": "Datadog, Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "DE": {
+      "found": true,
+      "cik": "0000315189",
+      "company_name": "DEERE & CO",
+      "sic": "3523",
+      "sic_description": "Farm Machinery & Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "DECK": {
+      "found": true,
+      "cik": "0000910521",
+      "company_name": "DECKERS OUTDOOR CORP",
+      "sic": "3021",
+      "sic_description": "Rubber & Plastics Footwear",
+      "last_checked": "2026-08-08"
+    },
+    "DELL": {
+      "found": true,
+      "cik": "0001571996",
+      "company_name": "Dell Technologies Inc.",
+      "sic": "3571",
+      "sic_description": "Electronic Computers",
+      "last_checked": "2026-08-08"
+    },
+    "DEO": {
+      "found": true,
+      "cik": "0000835403",
+      "company_name": "DIAGEO PLC",
+      "sic": "2080",
+      "sic_description": "Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "DGX": {
+      "found": true,
+      "cik": "0001022079",
+      "company_name": "QUEST DIAGNOSTICS INC",
+      "sic": "8071",
+      "sic_description": "Services-Medical Laboratories",
+      "last_checked": "2026-08-08"
+    },
+    "DHR": {
+      "found": true,
+      "cik": "0000313616",
+      "company_name": "DANAHER CORP /DE/",
+      "sic": "3823",
+      "sic_description": "Industrial Instruments For Measurement, Display, and Control",
+      "last_checked": "2026-08-08"
+    },
+    "DIS": {
+      "found": true,
+      "cik": "0001744489",
+      "company_name": "Walt Disney Co",
+      "sic": "7990",
+      "sic_description": "Services-Miscellaneous Amusement & Recreation",
+      "last_checked": "2026-08-08"
+    },
+    "DLR": {
+      "found": true,
+      "cik": "0001297996",
+      "company_name": "DIGITAL REALTY TRUST, INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "DOC": {
+      "found": true,
+      "cik": "0000765880",
+      "company_name": "HEALTHPEAK PROPERTIES, INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "DOV": {
+      "found": true,
+      "cik": "0000029905",
+      "company_name": "DOVER Corp",
+      "sic": "3530",
+      "sic_description": "Construction, Mining & Materials Handling Machinery & Equip",
+      "last_checked": "2026-08-08"
+    },
+    "DOW": {
+      "found": true,
+      "cik": "0001751788",
+      "company_name": "DOW INC.",
+      "sic": "2821",
+      "sic_description": "Plastic Materials, Synth Resins & Nonvulcan Elastomers",
+      "last_checked": "2026-08-08"
+    },
+    "DPZ": {
+      "found": true,
+      "cik": "0001286681",
+      "company_name": "DOMINOS PIZZA INC",
+      "sic": "5140",
+      "sic_description": "Wholesale-Groceries & Related Products",
+      "last_checked": "2026-08-08"
+    },
+    "DRI": {
+      "found": true,
+      "cik": "0000940944",
+      "company_name": "DARDEN RESTAURANTS INC",
+      "sic": "5812",
+      "sic_description": "Retail-Eating  Places",
+      "last_checked": "2026-08-08"
+    },
+    "DTE": {
+      "found": true,
+      "cik": "0000936340",
+      "company_name": "DTE ENERGY CO",
+      "sic": "4911",
+      "sic_description": "Electric Services",
+      "last_checked": "2026-08-08"
+    },
+    "DUK": {
+      "found": true,
+      "cik": "0001326160",
+      "company_name": "Duke Energy CORP",
+      "sic": "4931",
+      "sic_description": "Electric & Other Services Combined",
+      "last_checked": "2026-08-08"
+    },
+    "DVA": {
+      "found": true,
+      "cik": "0000927066",
+      "company_name": "DAVITA INC.",
+      "sic": "8090",
+      "sic_description": "Services-Misc Health & Allied Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "DVN": {
+      "found": true,
+      "cik": "0001090012",
+      "company_name": "DEVON ENERGY CORP/DE",
+      "sic": "1311",
+      "sic_description": "Crude Petroleum & Natural Gas",
+      "last_checked": "2026-08-08"
+    },
+    "DXCM": {
+      "found": true,
+      "cik": "0001093557",
+      "company_name": "DEXCOM INC",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "EA": {
+      "found": true,
+      "cik": "0000712515",
+      "company_name": "ELECTRONIC ARTS INC.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "EBAY": {
+      "found": true,
+      "cik": "0001065088",
+      "company_name": "EBAY INC",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "ECL": {
+      "found": true,
+      "cik": "0000031462",
+      "company_name": "ECOLAB INC.",
+      "sic": "2840",
+      "sic_description": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+      "last_checked": "2026-08-08"
+    },
+    "EFA": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "EG": {
+      "found": true,
+      "cik": "0001095073",
+      "company_name": "EVEREST GROUP, LTD.",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "EIBLX": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "EIPI": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "ELS": {
+      "found": true,
+      "cik": "0000895417",
+      "company_name": "EQUITY LIFESTYLE PROPERTIES INC",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "ELV": {
+      "found": true,
+      "cik": "0001156039",
+      "company_name": "Elevance Health, Inc.",
+      "sic": "6324",
+      "sic_description": "Hospital & Medical Service Plans",
+      "last_checked": "2026-08-08"
+    },
+    "EME": {
+      "found": true,
+      "cik": "0000105634",
+      "company_name": "EMCOR Group, Inc.",
+      "sic": "1731",
+      "sic_description": "Electrical Work",
+      "last_checked": "2026-08-08"
+    },
+    "EMR": {
+      "found": true,
+      "cik": "0000032604",
+      "company_name": "EMERSON ELECTRIC CO",
+      "sic": "3600",
+      "sic_description": "Electronic & Other Electrical Equipment (No Computer Equip)",
+      "last_checked": "2026-08-08"
+    },
+    "ESLT": {
+      "found": true,
+      "cik": "0001027664",
+      "company_name": "ELBIT SYSTEMS LTD",
+      "sic": "3728",
+      "sic_description": "Aircraft Parts & Auxiliary Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "ESS": {
+      "found": true,
+      "cik": "0000920522",
+      "company_name": "ESSEX PROPERTY TRUST, INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "ETN": {
+      "found": true,
+      "cik": "0001551182",
+      "company_name": "Eaton Corp plc",
+      "sic": "3590",
+      "sic_description": "Misc Industrial & Commercial Machinery & Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "ETOR": {
+      "found": true,
+      "cik": "0001493318",
+      "company_name": "eToro Group Ltd.",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "EW": {
+      "found": true,
+      "cik": "0001099800",
+      "company_name": "Edwards Lifesciences Corp",
+      "sic": "3842",
+      "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+      "last_checked": "2026-08-08"
+    },
+    "EXPD": {
+      "found": true,
+      "cik": "0000746515",
+      "company_name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+      "sic": "4731",
+      "sic_description": "Arrangement of  Transportation of  Freight & Cargo",
+      "last_checked": "2026-08-08"
+    },
+    "EXPE": {
+      "found": true,
+      "cik": "0001324424",
+      "company_name": "Expedia Group, Inc.",
+      "sic": "4700",
+      "sic_description": "Transportation Services",
+      "last_checked": "2026-08-08"
+    },
+    "F": {
+      "found": true,
+      "cik": "0000037996",
+      "company_name": "FORD MOTOR CO",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "FCX": {
+      "found": true,
+      "cik": "0000831259",
+      "company_name": "FREEPORT-MCMORAN INC",
+      "sic": "1000",
+      "sic_description": "Metal Mining",
+      "last_checked": "2026-08-08"
+    },
+    "FDS": {
+      "found": true,
+      "cik": "0001013237",
+      "company_name": "FACTSET RESEARCH SYSTEMS INC",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "FDX": {
+      "found": true,
+      "cik": "0001048911",
+      "company_name": "FEDEX CORP",
+      "sic": "4513",
+      "sic_description": "Air Courier Services",
+      "last_checked": "2026-08-08"
+    },
+    "FFIV": {
+      "found": true,
+      "cik": "0001048695",
+      "company_name": "F5, INC.",
+      "sic": "3576",
+      "sic_description": "Computer Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "FICO": {
+      "found": true,
+      "cik": "0000814547",
+      "company_name": "FAIR ISAAC CORP",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "FIS": {
+      "found": true,
+      "cik": "0001136893",
+      "company_name": "Fidelity National Information Services, Inc.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "FISV": {
+      "found": true,
+      "cik": "0000798354",
+      "company_name": "FISERV INC",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "FITB": {
+      "found": true,
+      "cik": "0000035527",
+      "company_name": "FIFTH THIRD BANCORP",
+      "sic": "6022",
+      "sic_description": "State Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "FIX": {
+      "found": true,
+      "cik": "0001035983",
+      "company_name": "COMFORT SYSTEMS USA INC",
+      "sic": "1731",
+      "sic_description": "Electrical Work",
+      "last_checked": "2026-08-08"
+    },
+    "FOXA": {
+      "found": true,
+      "cik": "0001754301",
+      "company_name": "Fox Corp",
+      "sic": "4833",
+      "sic_description": "Television Broadcasting Stations",
+      "last_checked": "2026-08-08"
+    },
+    "FRT": {
+      "found": true,
+      "cik": "0000034903",
+      "company_name": "FEDERAL REALTY INVESTMENT TRUST",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "FSLR": {
+      "found": true,
+      "cik": "0001274494",
+      "company_name": "FIRST SOLAR, INC.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "FTGC": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "FTNT": {
+      "found": true,
+      "cik": "0001262039",
+      "company_name": "Fortinet, Inc.",
+      "sic": "3577",
+      "sic_description": "Computer Peripheral Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "FTV": {
+      "found": true,
+      "cik": "0001659166",
+      "company_name": "Fortive Corp",
+      "sic": "3823",
+      "sic_description": "Industrial Instruments For Measurement, Display, and Control",
+      "last_checked": "2026-08-08"
+    },
+    "GBIL": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "GD": {
+      "found": true,
+      "cik": "0000040533",
+      "company_name": "GENERAL DYNAMICS CORP",
+      "sic": "3730",
+      "sic_description": "Ship & Boat Building & Repairing",
+      "last_checked": "2026-08-08"
+    },
+    "GDDY": {
+      "found": true,
+      "cik": "0001609711",
+      "company_name": "GoDaddy Inc.",
+      "sic": "7373",
+      "sic_description": "Services-Computer Integrated Systems Design",
+      "last_checked": "2026-08-08"
+    },
+    "GE": {
+      "found": true,
+      "cik": "0000040545",
+      "company_name": "GENERAL ELECTRIC CO",
+      "sic": "3600",
+      "sic_description": "Electronic & Other Electrical Equipment (No Computer Equip)",
+      "last_checked": "2026-08-08"
+    },
+    "GEHC": {
+      "found": true,
+      "cik": "0001932393",
+      "company_name": "GE HealthCare Technologies Inc.",
+      "sic": "3844",
+      "sic_description": "X-Ray Apparatus & Tubes & Related Irradiation Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "GEM": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "GEN": {
+      "found": true,
+      "cik": "0000849399",
+      "company_name": "Gen Digital Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "GEV": {
+      "found": true,
+      "cik": "0001996810",
+      "company_name": "GE Vernova Inc.",
+      "sic": "3600",
+      "sic_description": "Electronic & Other Electrical Equipment (No Computer Equip)",
+      "last_checked": "2026-08-08"
+    },
+    "GGG": {
+      "found": true,
+      "cik": "0000042888",
+      "company_name": "GRACO INC",
+      "sic": "3561",
+      "sic_description": "Pumps & Pumping Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "GIGB": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "GILD": {
+      "found": true,
+      "cik": "0000882095",
+      "company_name": "GILEAD SCIENCES, INC.",
+      "sic": "2836",
+      "sic_description": "Biological Products, (No Diagnostic Substances)",
+      "last_checked": "2026-08-08"
+    },
+    "GIS": {
+      "found": true,
+      "cik": "0000040704",
+      "company_name": "GENERAL MILLS INC",
+      "sic": "2040",
+      "sic_description": "Grain Mill Products",
+      "last_checked": "2026-08-08"
+    },
+    "GL": {
+      "found": true,
+      "cik": "0000320335",
+      "company_name": "GLOBE LIFE INC.",
+      "sic": "6311",
+      "sic_description": "Life Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "GLPI": {
+      "found": true,
+      "cik": "0001575965",
+      "company_name": "Gaming & Leisure Properties, Inc.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "GLW": {
+      "found": true,
+      "cik": "0000024741",
+      "company_name": "CORNING INC /NY",
+      "sic": "3357",
+      "sic_description": "Drawing & Insulating of  Nonferrous Wire",
+      "last_checked": "2026-08-08"
+    },
+    "GM": {
+      "found": true,
+      "cik": "0001467858",
+      "company_name": "General Motors Co",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "GMAB": {
+      "found": true,
+      "cik": "0001434265",
+      "company_name": "GENMAB A/S",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "GOLD": {
+      "found": true,
+      "cik": "0001591588",
+      "company_name": "Gold.com, Inc.",
+      "sic": "5094",
+      "sic_description": "Wholesale-Jewelry, Watches, Precious Stones & Metals",
+      "last_checked": "2026-08-08"
+    },
+    "GOOG": {
+      "found": true,
+      "cik": "0001652044",
+      "company_name": "Alphabet Inc.",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "GOOGL": {
+      "found": true,
+      "cik": "0001652044",
+      "company_name": "Alphabet Inc.",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "GPC": {
+      "found": true,
+      "cik": "0000040987",
+      "company_name": "GENUINE PARTS CO",
+      "sic": "5013",
+      "sic_description": "Wholesale-Motor Vehicle Supplies & New Parts",
+      "last_checked": "2026-08-08"
+    },
+    "GPN": {
+      "found": true,
+      "cik": "0001123360",
+      "company_name": "GLOBAL PAYMENTS INC",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "GRMN": {
+      "found": true,
+      "cik": "0001121788",
+      "company_name": "GARMIN LTD",
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "last_checked": "2026-08-08"
+    },
+    "GS": {
+      "found": true,
+      "cik": "0000886982",
+      "company_name": "GOLDMAN SACHS GROUP INC",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "HAS": {
+      "found": true,
+      "cik": "0000046080",
+      "company_name": "HASBRO, INC.",
+      "sic": "3944",
+      "sic_description": "Games, Toys & Children's Vehicles (No Dolls & Bicycles)",
+      "last_checked": "2026-08-08"
+    },
+    "HBAN": {
+      "found": true,
+      "cik": "0000049196",
+      "company_name": "HUNTINGTON BANCSHARES INC /MD/",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "HCA": {
+      "found": true,
+      "cik": "0000860730",
+      "company_name": "HCA Healthcare, Inc.",
+      "sic": "8062",
+      "sic_description": "Services-General Medical & Surgical Hospitals, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "HD": {
+      "found": true,
+      "cik": "0000354950",
+      "company_name": "HOME DEPOT, INC.",
+      "sic": "5211",
+      "sic_description": "Retail-Lumber & Other Building Materials Dealers",
+      "last_checked": "2026-08-08"
+    },
+    "HIG": {
+      "found": true,
+      "cik": "0000874766",
+      "company_name": "HARTFORD INSURANCE GROUP, INC.",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "HLT": {
+      "found": true,
+      "cik": "0001585689",
+      "company_name": "Hilton Worldwide Holdings Inc.",
+      "sic": "7011",
+      "sic_description": "Hotels & Motels",
+      "last_checked": "2026-08-08"
+    },
+    "HMC": {
+      "found": true,
+      "cik": "0000715153",
+      "company_name": "HONDA MOTOR CO LTD",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "HON": {
+      "found": true,
+      "cik": "0000773840",
+      "company_name": "HONEYWELL INTERNATIONAL INC",
+      "sic": "3724",
+      "sic_description": "Aircraft Engines & Engine Parts",
+      "last_checked": "2026-08-08"
+    },
+    "HOOD": {
+      "found": true,
+      "cik": "0001783879",
+      "company_name": "Robinhood Markets, Inc.",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "HPE": {
+      "found": true,
+      "cik": "0001645590",
+      "company_name": "Hewlett Packard Enterprise Co",
+      "sic": "3570",
+      "sic_description": "Computer & office Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "HPQ": {
+      "found": true,
+      "cik": "0000047217",
+      "company_name": "HP INC",
+      "sic": "3570",
+      "sic_description": "Computer & office Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "HSBC": {
+      "found": true,
+      "cik": "0001089113",
+      "company_name": "HSBC HOLDINGS PLC",
+      "sic": "6035",
+      "sic_description": "Savings Institution, Federally Chartered",
+      "last_checked": "2026-08-08"
+    },
+    "HSY": {
+      "found": true,
+      "cik": "0000047111",
+      "company_name": "HERSHEY CO",
+      "sic": "2060",
+      "sic_description": "Sugar & Confectionery Products",
+      "last_checked": "2026-08-08"
+    },
+    "HUBB": {
+      "found": true,
+      "cik": "0000048898",
+      "company_name": "HUBBELL INC",
+      "sic": "3670",
+      "sic_description": "Electronic Components & Accessories",
+      "last_checked": "2026-08-08"
+    },
+    "HUM": {
+      "found": true,
+      "cik": "0000049071",
+      "company_name": "HUMANA INC",
+      "sic": "6324",
+      "sic_description": "Hospital & Medical Service Plans",
+      "last_checked": "2026-08-08"
+    },
+    "HUMA": {
+      "found": true,
+      "cik": "0001818382",
+      "company_name": "Humacyte, Inc.",
+      "sic": "2836",
+      "sic_description": "Biological Products, (No Diagnostic Substances)",
+      "last_checked": "2026-08-08"
+    },
+    "HWM": {
+      "found": true,
+      "cik": "0000004281",
+      "company_name": "Howmet Aerospace Inc.",
+      "sic": "3350",
+      "sic_description": "Rolling Drawing & Extruding of  Nonferrous Metals",
+      "last_checked": "2026-08-08"
+    },
+    "IBM": {
+      "found": true,
+      "cik": "0000051143",
+      "company_name": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "sic": "3570",
+      "sic_description": "Computer & office Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "ICE": {
+      "found": true,
+      "cik": "0001571949",
+      "company_name": "Intercontinental Exchange, Inc.",
+      "sic": "6200",
+      "sic_description": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+      "last_checked": "2026-08-08"
+    },
+    "ICL": {
+      "found": true,
+      "cik": "0000941221",
+      "company_name": "ICL Group Ltd.",
+      "sic": "2870",
+      "sic_description": "Agricultural Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "IEF": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "IEI": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "IGV": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "INFY": {
+      "found": true,
+      "cik": "0001067491",
+      "company_name": "Infosys Ltd",
+      "sic": "7371",
+      "sic_description": "Services-Computer Programming Services",
+      "last_checked": "2026-08-08"
+    },
+    "ING": {
+      "found": true,
+      "cik": "0001039765",
+      "company_name": "ING GROEP NV",
+      "sic": "6029",
+      "sic_description": "Commercial Banks, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "INTC": {
+      "found": true,
+      "cik": "0000050863",
+      "company_name": "INTEL CORP",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "INTU": {
+      "found": true,
+      "cik": "0000896878",
+      "company_name": "INTUIT INC.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "INVH": {
+      "found": true,
+      "cik": "0001687229",
+      "company_name": "Invitation Homes Inc.",
+      "sic": "6510",
+      "sic_description": "Real Estate Operators (No Developers) & Lessors",
+      "last_checked": "2026-08-08"
+    },
+    "ISRG": {
+      "found": true,
+      "cik": "0001035267",
+      "company_name": "INTUITIVE SURGICAL INC",
+      "sic": "3842",
+      "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+      "last_checked": "2026-08-08"
+    },
+    "ITW": {
+      "found": true,
+      "cik": "0000049826",
+      "company_name": "ILLINOIS TOOL WORKS INC",
+      "sic": "3560",
+      "sic_description": "General Industrial Machinery & Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "IVV": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "IVW": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "IWM": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "IX": {
+      "found": true,
+      "cik": "0001070304",
+      "company_name": "ORIX CORP",
+      "sic": "6159",
+      "sic_description": "Miscellaneous Business Credit Institution",
+      "last_checked": "2026-08-08"
+    },
+    "JKHY": {
+      "found": true,
+      "cik": "0000779152",
+      "company_name": "JACK HENRY & ASSOCIATES INC",
+      "sic": "7373",
+      "sic_description": "Services-Computer Integrated Systems Design",
+      "last_checked": "2026-08-08"
+    },
+    "JMBS": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "JNJ": {
+      "found": true,
+      "cik": "0000200406",
+      "company_name": "JOHNSON & JOHNSON",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "JPM": {
+      "found": true,
+      "cik": "0000019617",
+      "company_name": "JPMORGAN CHASE & CO",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "KDP": {
+      "found": true,
+      "cik": "0001418135",
+      "company_name": "Keurig Dr Pepper Inc.",
+      "sic": "2080",
+      "sic_description": "Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "KEY": {
+      "found": true,
+      "cik": "0000091576",
+      "company_name": "KEYCORP /NEW/",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "KHC": {
+      "found": true,
+      "cik": "0001637459",
+      "company_name": "Kraft Heinz Co",
+      "sic": "2030",
+      "sic_description": "Canned, Frozen & Preservd Fruit, Veg & Food Specialties",
+      "last_checked": "2026-08-08"
+    },
+    "KIM": {
+      "found": true,
+      "cik": "0000879101",
+      "company_name": "KIMCO REALTY CORP",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "KKR": {
+      "found": true,
+      "cik": "0001404912",
+      "company_name": "KKR & Co. Inc.",
+      "sic": "6282",
+      "sic_description": "Investment Advice",
+      "last_checked": "2026-08-08"
+    },
+    "KLAC": {
+      "found": true,
+      "cik": "0000319201",
+      "company_name": "KLA CORP",
+      "sic": "3827",
+      "sic_description": "Optical Instruments & Lenses",
+      "last_checked": "2026-08-08"
+    },
+    "KMB": {
+      "found": true,
+      "cik": "0000055785",
+      "company_name": "KIMBERLY CLARK CORP",
+      "sic": "2670",
+      "sic_description": "Converted Paper & Paperboard Prods (No Contaners/Boxes)",
+      "last_checked": "2026-08-08"
+    },
+    "KMI": {
+      "found": true,
+      "cik": "0001506307",
+      "company_name": "KINDER MORGAN, INC.",
+      "sic": "4922",
+      "sic_description": "Natural Gas Transmission",
+      "last_checked": "2026-08-08"
+    },
+    "KO": {
+      "found": true,
+      "cik": "0000021344",
+      "company_name": "COCA COLA CO",
+      "sic": "2080",
+      "sic_description": "Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "KVUE": {
+      "found": true,
+      "cik": "0001944048",
+      "company_name": "Kenvue Inc.",
+      "sic": "2844",
+      "sic_description": "Perfumes, Cosmetics & Other Toilet Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "LDOS": {
+      "found": true,
+      "cik": "0001336920",
+      "company_name": "Leidos Holdings, Inc.",
+      "sic": "7373",
+      "sic_description": "Services-Computer Integrated Systems Design",
+      "last_checked": "2026-08-08"
+    },
+    "LEN": {
+      "found": true,
+      "cik": "0000920760",
+      "company_name": "LENNAR CORP /NEW/",
+      "sic": "1520",
+      "sic_description": "General Bldg Contractors - Residential Bldgs",
+      "last_checked": "2026-08-08"
+    },
+    "LH": {
+      "found": true,
+      "cik": "0000920148",
+      "company_name": "LABCORP HOLDINGS INC.",
+      "sic": "8071",
+      "sic_description": "Services-Medical Laboratories",
+      "last_checked": "2026-08-08"
+    },
+    "LHX": {
+      "found": true,
+      "cik": "0000202058",
+      "company_name": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "last_checked": "2026-08-08"
+    },
+    "LIN": {
+      "found": true,
+      "cik": "0001707925",
+      "company_name": "LINDE PLC",
+      "sic": "2810",
+      "sic_description": "Industrial Inorganic Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "LITE": {
+      "found": true,
+      "cik": "0001633978",
+      "company_name": "Lumentum Holdings Inc.",
+      "sic": "3669",
+      "sic_description": "Communications Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "LITP": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "LLY": {
+      "found": true,
+      "cik": "0000059478",
+      "company_name": "ELI LILLY & Co",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "LMT": {
+      "found": true,
+      "cik": "0000936468",
+      "company_name": "LOCKHEED MARTIN CORP",
+      "sic": "3760",
+      "sic_description": "Guided Missiles & Space Vehicles & Parts",
+      "last_checked": "2026-08-08"
+    },
+    "LOGI": {
+      "found": true,
+      "cik": "0001032975",
+      "company_name": "LOGITECH INTERNATIONAL S.A.",
+      "sic": "3577",
+      "sic_description": "Computer Peripheral Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "LOW": {
+      "found": true,
+      "cik": "0000060667",
+      "company_name": "LOWES COMPANIES INC",
+      "sic": "5211",
+      "sic_description": "Retail-Lumber & Other Building Materials Dealers",
+      "last_checked": "2026-08-08"
+    },
+    "LRCX": {
+      "found": true,
+      "cik": "0000707549",
+      "company_name": "LAM RESEARCH CORP",
+      "sic": "3559",
+      "sic_description": "Special Industry Machinery, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "LSCC": {
+      "found": true,
+      "cik": "0000855658",
+      "company_name": "LATTICE SEMICONDUCTOR CORP",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "LULU": {
+      "found": true,
+      "cik": "0001397187",
+      "company_name": "lululemon athletica inc.",
+      "sic": "2300",
+      "sic_description": "Apparel & Other Finishd Prods of  Fabrics & Similar Matl",
+      "last_checked": "2026-08-08"
+    },
+    "LYB": {
+      "found": true,
+      "cik": "0001489393",
+      "company_name": "LyondellBasell Industries N.V.",
+      "sic": "2860",
+      "sic_description": "Industrial Organic Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "LYG": {
+      "found": true,
+      "cik": "0001160106",
+      "company_name": "Lloyds Banking Group plc",
+      "sic": "6029",
+      "sic_description": "Commercial Banks, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "LYV": {
+      "found": true,
+      "cik": "0001335258",
+      "company_name": "Live Nation Entertainment, Inc.",
+      "sic": "7900",
+      "sic_description": "Services-Amusement & Recreation Services",
+      "last_checked": "2026-08-08"
+    },
+    "MA": {
+      "found": true,
+      "cik": "0001141391",
+      "company_name": "Mastercard Inc",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "MAA": {
+      "found": true,
+      "cik": "0000912595",
+      "company_name": "MID AMERICA APARTMENT COMMUNITIES INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "MAR": {
+      "found": true,
+      "cik": "0001048286",
+      "company_name": "MARRIOTT INTERNATIONAL INC /MD/",
+      "sic": "7011",
+      "sic_description": "Hotels & Motels",
+      "last_checked": "2026-08-08"
+    },
+    "MBB": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "MCD": {
+      "found": true,
+      "cik": "0000063908",
+      "company_name": "MCDONALDS CORP",
+      "sic": "5812",
+      "sic_description": "Retail-Eating  Places",
+      "last_checked": "2026-08-08"
+    },
+    "MCHP": {
+      "found": true,
+      "cik": "0000827054",
+      "company_name": "MICROCHIP TECHNOLOGY INC",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "MCK": {
+      "found": true,
+      "cik": "0000927653",
+      "company_name": "MCKESSON CORP",
+      "sic": "5122",
+      "sic_description": "Wholesale-Drugs, Proprietaries & Druggists' Sundries",
+      "last_checked": "2026-08-08"
+    },
+    "MCO": {
+      "found": true,
+      "cik": "0001059556",
+      "company_name": "MOODYS CORP /DE/",
+      "sic": "7320",
+      "sic_description": "Services-Consumer Credit Reporting, Collection Agencies",
+      "last_checked": "2026-08-08"
+    },
+    "MDLZ": {
+      "found": true,
+      "cik": "0001103982",
+      "company_name": "Mondelez International, Inc.",
+      "sic": "2000",
+      "sic_description": "Food and Kindred Products",
+      "last_checked": "2026-08-08"
+    },
+    "MDT": {
+      "found": true,
+      "cik": "0001613103",
+      "company_name": "Medtronic plc",
+      "sic": "3845",
+      "sic_description": "Electromedical & Electrotherapeutic Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "MET": {
+      "found": true,
+      "cik": "0001099219",
+      "company_name": "METLIFE INC",
+      "sic": "6311",
+      "sic_description": "Life Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "META": {
+      "found": true,
+      "cik": "0001326801",
+      "company_name": "Meta Platforms, Inc.",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "MFG": {
+      "found": true,
+      "cik": "0001335730",
+      "company_name": "MIZUHO FINANCIAL GROUP INC",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "MGM": {
+      "found": true,
+      "cik": "0000789570",
+      "company_name": "MGM Resorts International",
+      "sic": "7011",
+      "sic_description": "Hotels & Motels",
+      "last_checked": "2026-08-08"
+    },
+    "MMM": {
+      "found": true,
+      "cik": "0000066740",
+      "company_name": "3M CO",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "MNDY": {
+      "found": true,
+      "cik": "0001845338",
+      "company_name": "monday.com Ltd.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "MO": {
+      "found": true,
+      "cik": "0000764180",
+      "company_name": "ALTRIA GROUP, INC.",
+      "sic": "2111",
+      "sic_description": "Cigarettes",
+      "last_checked": "2026-08-08"
+    },
+    "MOS": {
+      "found": true,
+      "cik": "0001285785",
+      "company_name": "MOSAIC CO",
+      "sic": "2870",
+      "sic_description": "Agricultural Chemicals",
+      "last_checked": "2026-08-08"
+    },
+    "MPWR": {
+      "found": true,
+      "cik": "0001280452",
+      "company_name": "MONOLITHIC POWER SYSTEMS, INC.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "MRK": {
+      "found": true,
+      "cik": "0000310158",
+      "company_name": "Merck & Co., Inc.",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "MRSH": {
+      "found": true,
+      "cik": "0000062709",
+      "company_name": "MARSH & MCLENNAN COMPANIES, INC.",
+      "sic": "6411",
+      "sic_description": "Insurance Agents, Brokers & Service",
+      "last_checked": "2026-08-08"
+    },
+    "MS": {
+      "found": true,
+      "cik": "0000895421",
+      "company_name": "MORGAN STANLEY",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "MSCI": {
+      "found": true,
+      "cik": "0001408198",
+      "company_name": "MSCI Inc.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "MSFT": {
+      "found": true,
+      "cik": "0000789019",
+      "company_name": "MICROSOFT CORP",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "MSI": {
+      "found": true,
+      "cik": "0000068505",
+      "company_name": "Motorola Solutions, Inc.",
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "MT": {
+      "found": true,
+      "cik": "0001243429",
+      "company_name": "ArcelorMittal",
+      "sic": "3312",
+      "sic_description": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+      "last_checked": "2026-08-08"
+    },
+    "MU": {
+      "found": true,
+      "cik": "0000723125",
+      "company_name": "MICRON TECHNOLOGY INC",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "NBIS": {
+      "found": true,
+      "cik": "0001513845",
+      "company_name": "Nebius Group N.V.",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "last_checked": "2026-08-08"
+    },
+    "NDAQ": {
+      "found": true,
+      "cik": "0001120193",
+      "company_name": "NASDAQ, INC.",
+      "sic": "6200",
+      "sic_description": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+      "last_checked": "2026-08-08"
+    },
+    "NDSN": {
+      "found": true,
+      "cik": "0000072331",
+      "company_name": "NORDSON CORP",
+      "sic": "3569",
+      "sic_description": "General Industrial Machinery & Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "NEE": {
+      "found": true,
+      "cik": "0000753308",
+      "company_name": "NEXTERA ENERGY INC",
+      "sic": "4911",
+      "sic_description": "Electric Services",
+      "last_checked": "2026-08-08"
+    },
+    "NEM": {
+      "found": true,
+      "cik": "0001164727",
+      "company_name": "NEWMONT Corp /DE/",
+      "sic": "1040",
+      "sic_description": "Gold and Silver Ores",
+      "last_checked": "2026-08-08"
+    },
+    "NFLX": {
+      "found": true,
+      "cik": "0001065280",
+      "company_name": "NETFLIX INC",
+      "sic": "7841",
+      "sic_description": "Services-Video Tape Rental",
+      "last_checked": "2026-08-08"
+    },
+    "NKE": {
+      "found": true,
+      "cik": "0000320187",
+      "company_name": "NIKE, Inc.",
+      "sic": "3021",
+      "sic_description": "Rubber & Plastics Footwear",
+      "last_checked": "2026-08-08"
+    },
+    "NMR": {
+      "found": true,
+      "cik": "0001163653",
+      "company_name": "NOMURA HOLDINGS INC",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "NOC": {
+      "found": true,
+      "cik": "0001133421",
+      "company_name": "NORTHROP GRUMMAN CORP /DE/",
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "last_checked": "2026-08-08"
+    },
+    "NOK": {
+      "found": true,
+      "cik": "0000924613",
+      "company_name": "NOKIA CORP",
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "NOW": {
+      "found": true,
+      "cik": "0001373715",
+      "company_name": "ServiceNow, Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "NSC": {
+      "found": true,
+      "cik": "0000702165",
+      "company_name": "NORFOLK SOUTHERN CORP",
+      "sic": "4011",
+      "sic_description": "Railroads, Line-Haul Operating",
+      "last_checked": "2026-08-08"
+    },
+    "NUE": {
+      "found": true,
+      "cik": "0000073309",
+      "company_name": "NUCOR CORP",
+      "sic": "3312",
+      "sic_description": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+      "last_checked": "2026-08-08"
+    },
+    "NVDA": {
+      "found": true,
+      "cik": "0001045810",
+      "company_name": "NVIDIA CORP",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "NVO": {
+      "found": true,
+      "cik": "0000353278",
+      "company_name": "NOVO NORDISK A S",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "NVS": {
+      "found": true,
+      "cik": "0001114448",
+      "company_name": "NOVARTIS AG",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "NXPI": {
+      "found": true,
+      "cik": "0001413447",
+      "company_name": "NXP Semiconductors N.V.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "O": {
+      "found": true,
+      "cik": "0000726728",
+      "company_name": "REALTY INCOME CORP",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "OC": {
+      "found": true,
+      "cik": "0001370946",
+      "company_name": "Owens Corning",
+      "sic": "3290",
+      "sic_description": "Abrasive, Asbestos & Misc Nonmetallic Mineral Prods",
+      "last_checked": "2026-08-08"
+    },
+    "ODFL": {
+      "found": true,
+      "cik": "0000878927",
+      "company_name": "OLD DOMINION FREIGHT LINE, INC.",
+      "sic": "4213",
+      "sic_description": "Trucking (No Local)",
+      "last_checked": "2026-08-08"
+    },
+    "OMC": {
+      "found": true,
+      "cik": "0000029989",
+      "company_name": "OMNICOM GROUP INC.",
+      "sic": "7311",
+      "sic_description": "Services-Advertising Agencies",
+      "last_checked": "2026-08-08"
+    },
+    "ORCL": {
+      "found": true,
+      "cik": "0001341439",
+      "company_name": "ORACLE CORP",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "ORLY": {
+      "found": true,
+      "cik": "0000898173",
+      "company_name": "O REILLY AUTOMOTIVE INC",
+      "sic": "5531",
+      "sic_description": "Retail-Auto & Home Supply Stores",
+      "last_checked": "2026-08-08"
+    },
+    "OTIS": {
+      "found": true,
+      "cik": "0001781335",
+      "company_name": "Otis Worldwide Corp",
+      "sic": "3600",
+      "sic_description": "Electronic & Other Electrical Equipment (No Computer Equip)",
+      "last_checked": "2026-08-08"
+    },
+    "PALL": {
+      "found": true,
+      "cik": "0001459862",
+      "company_name": "abrdn Palladium ETF Trust",
+      "sic": "6221",
+      "sic_description": "Commodity Contracts Brokers & Dealers",
+      "last_checked": "2026-08-08"
+    },
+    "PANW": {
+      "found": true,
+      "cik": "0001327567",
+      "company_name": "Palo Alto Networks Inc",
+      "sic": "3577",
+      "sic_description": "Computer Peripheral Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "PARA": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "PAYX": {
+      "found": true,
+      "cik": "0000723531",
+      "company_name": "PAYCHEX INC",
+      "sic": "8700",
+      "sic_description": "Services-Engineering, Accounting, Research, Management",
+      "last_checked": "2026-08-08"
+    },
+    "PCAR": {
+      "found": true,
+      "cik": "0000075362",
+      "company_name": "PACCAR INC",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "PEP": {
+      "found": true,
+      "cik": "0000077476",
+      "company_name": "PEPSICO INC",
+      "sic": "2080",
+      "sic_description": "Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "PFE": {
+      "found": true,
+      "cik": "0000078003",
+      "company_name": "PFIZER INC",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "PFG": {
+      "found": true,
+      "cik": "0001126328",
+      "company_name": "PRINCIPAL FINANCIAL GROUP INC",
+      "sic": "6321",
+      "sic_description": "Accident & Health Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "PG": {
+      "found": true,
+      "cik": "0000080424",
+      "company_name": "PROCTER & GAMBLE Co",
+      "sic": "2840",
+      "sic_description": "Soap, Detergents, Cleang Preparations, Perfumes, Cosmetics",
+      "last_checked": "2026-08-08"
+    },
+    "PGR": {
+      "found": true,
+      "cik": "0000080661",
+      "company_name": "PROGRESSIVE CORP/OH/",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "PH": {
+      "found": true,
+      "cik": "0000076334",
+      "company_name": "Parker-Hannifin Corp",
+      "sic": "3490",
+      "sic_description": "Miscellaneous Fabricated Metal Products",
+      "last_checked": "2026-08-08"
+    },
+    "PLTR": {
+      "found": true,
+      "cik": "0001321655",
+      "company_name": "Palantir Technologies Inc.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "PM": {
+      "found": true,
+      "cik": "0001413329",
+      "company_name": "Philip Morris International Inc.",
+      "sic": "2111",
+      "sic_description": "Cigarettes",
+      "last_checked": "2026-08-08"
+    },
+    "PNC": {
+      "found": true,
+      "cik": "0000713676",
+      "company_name": "PNC FINANCIAL SERVICES GROUP, INC.",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "PODD": {
+      "found": true,
+      "cik": "0001145197",
+      "company_name": "INSULET CORP",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "POOL": {
+      "found": true,
+      "cik": "0000945841",
+      "company_name": "POOL CORP",
+      "sic": "5090",
+      "sic_description": "Wholesale-Misc Durable Goods",
+      "last_checked": "2026-08-08"
+    },
+    "PRU": {
+      "found": true,
+      "cik": "0001137774",
+      "company_name": "PRUDENTIAL FINANCIAL INC",
+      "sic": "6311",
+      "sic_description": "Life Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "PSA": {
+      "found": true,
+      "cik": "0001393311",
+      "company_name": "Public Storage",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "PSO": {
+      "found": true,
+      "cik": "0000938323",
+      "company_name": "PEARSON PLC",
+      "sic": "2731",
+      "sic_description": "Books: Publishing or  Publishing & Printing",
+      "last_checked": "2026-08-08"
+    },
+    "PSX": {
+      "found": true,
+      "cik": "0001534701",
+      "company_name": "Phillips 66",
+      "sic": "2911",
+      "sic_description": "Petroleum Refining",
+      "last_checked": "2026-08-08"
+    },
+    "PTC": {
+      "found": true,
+      "cik": "0000857005",
+      "company_name": "PTC INC.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "PTON": {
+      "found": true,
+      "cik": "0001639825",
+      "company_name": "PELOTON INTERACTIVE, INC.",
+      "sic": "3949",
+      "sic_description": "Sporting & Athletic Goods, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "PWR": {
+      "found": true,
+      "cik": "0001050915",
+      "company_name": "QUANTA SERVICES, INC.",
+      "sic": "1731",
+      "sic_description": "Electrical Work",
+      "last_checked": "2026-08-08"
+    },
+    "PYPL": {
+      "found": true,
+      "cik": "0001633917",
+      "company_name": "PayPal Holdings, Inc.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "Q": {
+      "found": true,
+      "cik": "0002058873",
+      "company_name": "Qnity Electronics, Inc.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "QCOM": {
+      "found": true,
+      "cik": "0000804328",
+      "company_name": "QUALCOMM INC/DE",
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "QLYS": {
+      "found": true,
+      "cik": "0001107843",
+      "company_name": "QUALYS, INC.",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "RACE": {
+      "found": true,
+      "cik": "0001648416",
+      "company_name": "Ferrari N.V.",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "RCL": {
+      "found": true,
+      "cik": "0000884887",
+      "company_name": "ROYAL CARIBBEAN CRUISES LTD",
+      "sic": "4400",
+      "sic_description": "Water Transportation",
+      "last_checked": "2026-08-08"
+    },
+    "REG": {
+      "found": true,
+      "cik": "0000910606",
+      "company_name": "REGENCY CENTERS CORP",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "REGN": {
+      "found": true,
+      "cik": "0000872589",
+      "company_name": "REGENERON PHARMACEUTICALS, INC.",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "RELX": {
+      "found": true,
+      "cik": "0000929869",
+      "company_name": "RELX PLC",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "RIO": {
+      "found": true,
+      "cik": "0000863064",
+      "company_name": "RIO TINTO PLC",
+      "sic": "1000",
+      "sic_description": "Metal Mining",
+      "last_checked": "2026-08-08"
+    },
+    "RMD": {
+      "found": true,
+      "cik": "0000943819",
+      "company_name": "RESMED INC",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "RNWGX": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "RSG": {
+      "found": true,
+      "cik": "0001060391",
+      "company_name": "REPUBLIC SERVICES, INC.",
+      "sic": "4953",
+      "sic_description": "Refuse Systems",
+      "last_checked": "2026-08-08"
+    },
+    "RTX": {
+      "found": true,
+      "cik": "0000101829",
+      "company_name": "RTX Corp",
+      "sic": "3724",
+      "sic_description": "Aircraft Engines & Engine Parts",
+      "last_checked": "2026-08-08"
+    },
+    "SAN": {
+      "found": true,
+      "cik": "0000891478",
+      "company_name": "Banco Santander, S.A.",
+      "sic": "6029",
+      "sic_description": "Commercial Banks, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "SAP": {
+      "found": true,
+      "cik": "0001000184",
+      "company_name": "SAP SE",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "SBUX": {
+      "found": true,
+      "cik": "0000829224",
+      "company_name": "STARBUCKS CORP",
+      "sic": "5810",
+      "sic_description": "Retail-Eating & Drinking Places",
+      "last_checked": "2026-08-08"
+    },
+    "SCHP": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "SCHW": {
+      "found": true,
+      "cik": "0000316709",
+      "company_name": "SCHWAB CHARLES CORP",
+      "sic": "6211",
+      "sic_description": "Security Brokers, Dealers & Flotation Companies",
+      "last_checked": "2026-08-08"
+    },
+    "SHY": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "SJM": {
+      "found": true,
+      "cik": "0000091419",
+      "company_name": "J M SMUCKER Co",
+      "sic": "2033",
+      "sic_description": "Canned, Fruits, Veg, Preserves, Jams & Jellies",
+      "last_checked": "2026-08-08"
+    },
+    "SMFG": {
+      "found": true,
+      "cik": "0001022837",
+      "company_name": "SUMITOMO MITSUI FINANCIAL GROUP, INC.",
+      "sic": "6029",
+      "sic_description": "Commercial Banks, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "SNA": {
+      "found": true,
+      "cik": "0000091440",
+      "company_name": "Snap-on Inc",
+      "sic": "3420",
+      "sic_description": "Cutlery, Handtools & General Hardware",
+      "last_checked": "2026-08-08"
+    },
+    "SNDK": {
+      "found": true,
+      "cik": "0002023554",
+      "company_name": "Sandisk Corp",
+      "sic": "3572",
+      "sic_description": "Computer Storage Devices",
+      "last_checked": "2026-08-08"
+    },
+    "SNN": {
+      "found": true,
+      "cik": "0000845982",
+      "company_name": "SMITH & NEPHEW PLC",
+      "sic": "3842",
+      "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+      "last_checked": "2026-08-08"
+    },
+    "SNPS": {
+      "found": true,
+      "cik": "0000883241",
+      "company_name": "SYNOPSYS INC",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "SNY": {
+      "found": true,
+      "cik": "0001121404",
+      "company_name": "Sanofi",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "SOLS": {
+      "found": true,
+      "cik": "0002064953",
+      "company_name": "Solstice Advanced Materials Inc.",
+      "sic": "2800",
+      "sic_description": "Chemicals & Allied Products",
+      "last_checked": "2026-08-08"
+    },
+    "SOLV": {
+      "found": true,
+      "cik": "0001964738",
+      "company_name": "Solventum Corp",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "SONY": {
+      "found": true,
+      "cik": "0000313838",
+      "company_name": "Sony Group Corp",
+      "sic": "3651",
+      "sic_description": "Household Audio & Video Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "SPG": {
+      "found": true,
+      "cik": "0001063761",
+      "company_name": "SIMON PROPERTY GROUP INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "SPGI": {
+      "found": true,
+      "cik": "0000064040",
+      "company_name": "S&P Global Inc.",
+      "sic": "7320",
+      "sic_description": "Services-Consumer Credit Reporting, Collection Agencies",
+      "last_checked": "2026-08-08"
+    },
+    "SPOT": {
+      "found": true,
+      "cik": "0001639920",
+      "company_name": "Spotify Technology S.A.",
+      "sic": "4832",
+      "sic_description": "Radio Broadcasting Stations",
+      "last_checked": "2026-08-08"
+    },
+    "SPYM": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "STLA": {
+      "found": true,
+      "cik": "0001605484",
+      "company_name": "Stellantis N.V.",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "STLD": {
+      "found": true,
+      "cik": "0001022671",
+      "company_name": "STEEL DYNAMICS INC",
+      "sic": "3312",
+      "sic_description": "Steel Works, Blast Furnaces & Rolling Mills (Coke Ovens)",
+      "last_checked": "2026-08-08"
+    },
+    "STM": {
+      "found": true,
+      "cik": "0000932787",
+      "company_name": "STMicroelectronics N.V.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "STX": {
+      "found": true,
+      "cik": "0001137789",
+      "company_name": "Seagate Technology Holdings plc",
+      "sic": "3572",
+      "sic_description": "Computer Storage Devices",
+      "last_checked": "2026-08-08"
+    },
+    "STZ": {
+      "found": true,
+      "cik": "0000016918",
+      "company_name": "CONSTELLATION BRANDS, INC.",
+      "sic": "2080",
+      "sic_description": "Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "SWKS": {
+      "found": true,
+      "cik": "0000004127",
+      "company_name": "SKYWORKS SOLUTIONS, INC.",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "SYF": {
+      "found": true,
+      "cik": "0001601712",
+      "company_name": "Synchrony Financial",
+      "sic": "6199",
+      "sic_description": "Finance Services",
+      "last_checked": "2026-08-08"
+    },
+    "SYK": {
+      "found": true,
+      "cik": "0000310764",
+      "company_name": "STRYKER CORP",
+      "sic": "3841",
+      "sic_description": "Surgical & Medical Instruments & Apparatus",
+      "last_checked": "2026-08-08"
+    },
+    "T": {
+      "found": true,
+      "cik": "0000732717",
+      "company_name": "AT&T INC.",
+      "sic": "4813",
+      "sic_description": "Telephone Communications (No Radiotelephone)",
+      "last_checked": "2026-08-08"
+    },
+    "TAP": {
+      "found": true,
+      "cik": "0000024545",
+      "company_name": "MOLSON COORS BEVERAGE CO",
+      "sic": "2082",
+      "sic_description": "Malt Beverages",
+      "last_checked": "2026-08-08"
+    },
+    "TDG": {
+      "found": true,
+      "cik": "0001260221",
+      "company_name": "TransDigm Group INC",
+      "sic": "3728",
+      "sic_description": "Aircraft Parts & Auxiliary Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "TDY": {
+      "found": true,
+      "cik": "0001094285",
+      "company_name": "TELEDYNE TECHNOLOGIES INC",
+      "sic": "3812",
+      "sic_description": "Search, Detection, Navigation, Guidance, Aeronautical Sys",
+      "last_checked": "2026-08-08"
+    },
+    "TEL": {
+      "found": true,
+      "cik": "0001385157",
+      "company_name": "TE Connectivity plc",
+      "sic": "5065",
+      "sic_description": "Wholesale-Electronic Parts & Equipment, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "TER": {
+      "found": true,
+      "cik": "0000097210",
+      "company_name": "TERADYNE, INC",
+      "sic": "3825",
+      "sic_description": "Instruments For Meas & Testing of  Electricity & Elec Signals",
+      "last_checked": "2026-08-08"
+    },
+    "TEVA": {
+      "found": true,
+      "cik": "0000818686",
+      "company_name": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "TFC": {
+      "found": true,
+      "cik": "0000092230",
+      "company_name": "TRUIST FINANCIAL CORP",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "TLH": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "TM": {
+      "found": true,
+      "cik": "0001094517",
+      "company_name": "TOYOTA MOTOR CORP/",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "TMO": {
+      "found": true,
+      "cik": "0000097745",
+      "company_name": "THERMO FISHER SCIENTIFIC INC.",
+      "sic": "3829",
+      "sic_description": "Measuring & Controlling Devices, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "TMUS": {
+      "found": true,
+      "cik": "0001283699",
+      "company_name": "T-Mobile US, Inc.",
+      "sic": "4812",
+      "sic_description": "Radiotelephone Communications",
+      "last_checked": "2026-08-08"
+    },
+    "TPR": {
+      "found": true,
+      "cik": "0001116132",
+      "company_name": "TAPESTRY, INC.",
+      "sic": "3100",
+      "sic_description": "Leather & Leather Products",
+      "last_checked": "2026-08-08"
+    },
+    "TPYP": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "TRV": {
+      "found": true,
+      "cik": "0000086312",
+      "company_name": "TRAVELERS COMPANIES, INC.",
+      "sic": "6331",
+      "sic_description": "Fire, Marine & Casualty Insurance",
+      "last_checked": "2026-08-08"
+    },
+    "TSCO": {
+      "found": true,
+      "cik": "0000916365",
+      "company_name": "TRACTOR SUPPLY CO /DE/",
+      "sic": "5200",
+      "sic_description": "Retail-Building Materials, Hardware, Garden Supply",
+      "last_checked": "2026-08-08"
+    },
+    "TSLA": {
+      "found": true,
+      "cik": "0001318605",
+      "company_name": "Tesla, Inc.",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "last_checked": "2026-08-08"
+    },
+    "TT": {
+      "found": true,
+      "cik": "0001466258",
+      "company_name": "Trane Technologies plc",
+      "sic": "3822",
+      "sic_description": "Auto Controls For Regulating Residential & Comml Environments",
+      "last_checked": "2026-08-08"
+    },
+    "TTWO": {
+      "found": true,
+      "cik": "0000946581",
+      "company_name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "last_checked": "2026-08-08"
+    },
+    "TXN": {
+      "found": true,
+      "cik": "0000097476",
+      "company_name": "TEXAS INSTRUMENTS INC",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "last_checked": "2026-08-08"
+    },
+    "TXT": {
+      "found": true,
+      "cik": "0000217346",
+      "company_name": "TEXTRON INC",
+      "sic": "3720",
+      "sic_description": "Aircraft & Parts",
+      "last_checked": "2026-08-08"
+    },
+    "UBER": {
+      "found": true,
+      "cik": "0001543151",
+      "company_name": "Uber Technologies, Inc",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "UBS": {
+      "found": true,
+      "cik": "0001610520",
+      "company_name": "UBS Group AG",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "UDR": {
+      "found": true,
+      "cik": "0000074208",
+      "company_name": "UDR, Inc.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "UHS": {
+      "found": true,
+      "cik": "0000352915",
+      "company_name": "UNIVERSAL HEALTH SERVICES INC",
+      "sic": "8062",
+      "sic_description": "Services-General Medical & Surgical Hospitals, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "UI": {
+      "found": true,
+      "cik": "0001511737",
+      "company_name": "Ubiquiti Inc.",
+      "sic": "3663",
+      "sic_description": "Radio & Tv Broadcasting & Communications Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "UNH": {
+      "found": true,
+      "cik": "0000731766",
+      "company_name": "UNITEDHEALTH GROUP INC",
+      "sic": "6324",
+      "sic_description": "Hospital & Medical Service Plans",
+      "last_checked": "2026-08-08"
+    },
+    "UNP": {
+      "found": true,
+      "cik": "0000100885",
+      "company_name": "UNION PACIFIC CORP",
+      "sic": "4011",
+      "sic_description": "Railroads, Line-Haul Operating",
+      "last_checked": "2026-08-08"
+    },
+    "UPS": {
+      "found": true,
+      "cik": "0001090727",
+      "company_name": "UNITED PARCEL SERVICE INC",
+      "sic": "4210",
+      "sic_description": "Trucking & Courier Services (No Air)",
+      "last_checked": "2026-08-08"
+    },
+    "URI": {
+      "found": true,
+      "cik": "0001067701",
+      "company_name": "UNITED RENTALS, INC.",
+      "sic": "7359",
+      "sic_description": "Services-Equipment Rental & Leasing, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "USIG": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "V": {
+      "found": true,
+      "cik": "0001403161",
+      "company_name": "VISA INC.",
+      "sic": "7389",
+      "sic_description": "Services-Business Services, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "VEA": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "VICI": {
+      "found": true,
+      "cik": "0001705696",
+      "company_name": "VICI PROPERTIES INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "VNQI": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "VRSK": {
+      "found": true,
+      "cik": "0001442145",
+      "company_name": "Verisk Analytics, Inc.",
+      "sic": "7374",
+      "sic_description": "Services-Computer Processing & Data Preparation",
+      "last_checked": "2026-08-08"
+    },
+    "VRSN": {
+      "found": true,
+      "cik": "0001014473",
+      "company_name": "VERISIGN INC/CA",
+      "sic": "7371",
+      "sic_description": "Services-Computer Programming Services",
+      "last_checked": "2026-08-08"
+    },
+    "VRT": {
+      "found": true,
+      "cik": "0001674101",
+      "company_name": "Vertiv Holdings Co",
+      "sic": "3679",
+      "sic_description": "Electronic Components, NEC",
+      "last_checked": "2026-08-08"
+    },
+    "VRTX": {
+      "found": true,
+      "cik": "0000875320",
+      "company_name": "VERTEX PHARMACEUTICALS INC / MA",
+      "sic": "2834",
+      "sic_description": "Pharmaceutical Preparations",
+      "last_checked": "2026-08-08"
+    },
+    "VTR": {
+      "found": true,
+      "cik": "0000740260",
+      "company_name": "Ventas, Inc.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "VZ": {
+      "found": true,
+      "cik": "0000732712",
+      "company_name": "VERIZON COMMUNICATIONS INC",
+      "sic": "4813",
+      "sic_description": "Telephone Communications (No Radiotelephone)",
+      "last_checked": "2026-08-08"
+    },
+    "WAB": {
+      "found": true,
+      "cik": "0000943452",
+      "company_name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "sic": "3743",
+      "sic_description": "Railroad Equipment",
+      "last_checked": "2026-08-08"
+    },
+    "WAT": {
+      "found": true,
+      "cik": "0001000697",
+      "company_name": "WATERS CORP /DE/",
+      "sic": "3826",
+      "sic_description": "Laboratory Analytical Instruments",
+      "last_checked": "2026-08-08"
+    },
+    "WBA": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "WBD": {
+      "found": true,
+      "cik": "0001437107",
+      "company_name": "Warner Bros. Discovery, Inc.",
+      "sic": "4841",
+      "sic_description": "Cable & Other Pay Television Services",
+      "last_checked": "2026-08-08"
+    },
+    "WDAY": {
+      "found": true,
+      "cik": "0001327811",
+      "company_name": "Workday, Inc.",
+      "sic": "7374",
+      "sic_description": "Services-Computer Processing & Data Preparation",
+      "last_checked": "2026-08-08"
+    },
+    "WDC": {
+      "found": true,
+      "cik": "0000106040",
+      "company_name": "WESTERN DIGITAL CORP",
+      "sic": "3572",
+      "sic_description": "Computer Storage Devices",
+      "last_checked": "2026-08-08"
+    },
+    "WELL": {
+      "found": true,
+      "cik": "0000766704",
+      "company_name": "WELLTOWER INC.",
+      "sic": "6798",
+      "sic_description": "Real Estate Investment Trusts",
+      "last_checked": "2026-08-08"
+    },
+    "WFC": {
+      "found": true,
+      "cik": "0000072971",
+      "company_name": "WELLS FARGO & COMPANY/MN",
+      "sic": "6021",
+      "sic_description": "National Commercial Banks",
+      "last_checked": "2026-08-08"
+    },
+    "WMB": {
+      "found": true,
+      "cik": "0000107263",
+      "company_name": "WILLIAMS COMPANIES, INC.",
+      "sic": "4922",
+      "sic_description": "Natural Gas Transmission",
+      "last_checked": "2026-08-08"
+    },
+    "WMS": {
+      "found": true,
+      "cik": "0001604028",
+      "company_name": "ADVANCED DRAINAGE SYSTEMS, INC.",
+      "sic": "3086",
+      "sic_description": "Plastics Foam Products",
+      "last_checked": "2026-08-08"
+    },
+    "WMT": {
+      "found": true,
+      "cik": "0000104169",
+      "company_name": "Walmart Inc.",
+      "sic": "5331",
+      "sic_description": "Retail-Variety Stores",
+      "last_checked": "2026-08-08"
+    },
+    "WYNN": {
+      "found": true,
+      "cik": "0001174922",
+      "company_name": "WYNN RESORTS LTD",
+      "sic": "7011",
+      "sic_description": "Hotels & Motels",
+      "last_checked": "2026-08-08"
+    },
+    "XBI": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "XFIV": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "XLP": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "XLU": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "XLV": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "XOM": {
+      "found": true,
+      "cik": "0002115436",
+      "company_name": "ExxonMobil Holdings Corp",
+      "sic": "2911",
+      "sic_description": "Petroleum Refining",
+      "last_checked": "2026-08-08"
+    },
+    "XTWO": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-08"
+    },
+    "YUM": {
+      "found": true,
+      "cik": "0001041061",
+      "company_name": "YUM BRANDS INC",
+      "sic": "5812",
+      "sic_description": "Retail-Eating  Places",
+      "last_checked": "2026-08-08"
+    },
+    "ZBH": {
+      "found": true,
+      "cik": "0001136869",
+      "company_name": "ZIMMER BIOMET HOLDINGS, INC.",
+      "sic": "3842",
+      "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
+      "last_checked": "2026-08-08"
+    }
+  }
+}
