@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:58:26.165173+00:00",
+  "generated_at": "2026-08-09T02:29:08.662431+00:00",
   "trades": [
     {
       "trade_id": "efd-fda235b3-bad7-4637-8fa1-053f354d929c-703",
@@ -24838,6 +24838,28 @@
       "comment": "",
       "parsed_ok": true,
       "scraped_at": "2026-08-08T04:49:25.589151+00:00"
+    },
+    {
+      "trade_id": "efd-5ecc9b5c-07c1-4ec1-bd4a-2db759eff299-1",
+      "bioguide_id": "W000779",
+      "senator_name_raw": "Ron L Wyden",
+      "report_id": "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299",
+      "report_url": "https://efdsearch.senate.gov/search/view/ptr/5ecc9b5c-07c1-4ec1-bd4a-2db759eff299/",
+      "filing_type": "PTR",
+      "chamber": "senate",
+      "transaction_date": "2025-04-30",
+      "disclosure_date": "2026-08-08",
+      "owner": "Spouse",
+      "ticker": "AMCR",
+      "asset_name": "BERY - Berry Global Group, Inc. (Exchanged) Amcor plc Ordinary Shares (Received)",
+      "asset_type": "Stock",
+      "transaction_type": "Exchange",
+      "amount_range": "$100,001 - $250,000",
+      "amount_range_min": 100001,
+      "amount_range_max": 250000,
+      "comment": "",
+      "parsed_ok": true,
+      "scraped_at": "2026-08-09T02:29:08.662431+00:00"
     }
   ]
 }
