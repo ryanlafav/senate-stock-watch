@@ -1,4 +1,4 @@
-# Senate Stock Watch
+# SNAP - Senate trade flags
 
 A free, static web app that flags US Senate stock purchases falling within the industry
 jurisdiction of a committee the trading senator currently sits on.
@@ -18,11 +18,16 @@ Everything here is free and serverless:
   classifies each traded ticker's industry via [SEC EDGAR](https://www.sec.gov/), and matches
   trades against a hand-curated committee&rarr;industry mapping
   (`config/committee_industry_map.yaml`).
-- **Storage**: flat JSON files committed into `docs/data/` - no database.
+- **Storage**: flat JSON files committed into `docs/data/` - no database. `jurisdiction.json`
+  publishes the committee→industry map itself, so the dashboard can show every mapped category
+  including the ones currently at zero flags.
 - **Automation**: two independent GitHub Actions workflows (see below) run the pipeline on a
   schedule and commit the results back to the repo.
 - **Frontend** (`docs/`, plain HTML/CSS/JS, no build step): GitHub Pages serves `docs/` directly;
-  the page fetches the committed JSON client-side.
+  the page fetches the committed JSON client-side. Three views share one shell - a derived
+  dashboard (`#dashboard`), the flagged-trade table (`#flagged`) and every parsed trade
+  (`#all`) - and every figure on the dashboard is computed at render time from the same JSON
+  the tables read, so the two can never disagree.
 
 Scope: **Senate only** for now. House disclosures are largely scanned/handwritten PDFs that can't
 be reliably auto-parsed, so they're deliberately out of scope until a reliable parsing approach
@@ -104,7 +109,7 @@ go through a PR with reasoning, same as code.
 ```
 config/            Curated mappings + pipeline tuning (committee_industry_map.yaml is the key one)
 scripts/            Data pipeline: lib/ (HTTP clients, parsing), 01-04 (pipeline steps), run_pipeline.py
-docs/               GitHub Pages site: index.html, methodology.html, js/, data/ (pipeline output)
+docs/               GitHub Pages site: index.html, methodology.html, styles.css, js/, data/ (pipeline output)
 tests/              Fixture-based pytest suite (fixtures captured from live sources on 2026-08-08)
 .github/workflows/  update-trades.yml, update-roster.yml, tests.yml
 ```

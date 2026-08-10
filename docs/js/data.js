@@ -30,5 +30,6 @@ const DataStore = (() => {
     trades: () => load("trades.json"),
     members: () => load("members.json"),
     committees: () => load("committees.json"),
+    jurisdiction: () => load("jurisdiction.json"),
   };
 })();

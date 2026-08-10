@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-08-09T17:54:17.489434+00:00",
+  "map_version": 1,
+  "last_reviewed": "2026-08-08",
+  "mapped": [
+    {
+      "committee_id": "SSAF",
+      "committee_name": "Senate Committee on Agriculture, Nutrition, and Forestry",
+      "category": "Agriculture & Food",
+      "confidence": "high"
+    },
+    {
+      "committee_id": "SSBK",
+      "committee_name": "Senate Committee on Banking, Housing, and Urban Affairs",
+      "category": "Banking, Housing & Financial Services",
+      "confidence": "high"
+    },
+    {
+      "committee_id": "SSCM",
+      "committee_name": "Senate Committee on Commerce, Science, and Transportation",
+      "category": "Commerce, Transportation & Technology",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SSAS",
+      "committee_name": "Senate Committee on Armed Services",
+      "category": "Defense & Aerospace",
+      "confidence": "high"
+    },
+    {
+      "committee_id": "SSEG",
+      "committee_name": "Senate Committee on Energy and Natural Resources",
+      "category": "Energy & Natural Resources",
+      "confidence": "high"
+    },
+    {
+      "committee_id": "SSEV",
+      "committee_name": "Senate Committee on Environment and Public Works",
+      "category": "Environment, Infrastructure & Utilities",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SSFI",
+      "committee_name": "Senate Committee on Finance",
+      "category": "Health Insurance, Trade & Tax-Related Finance",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SSHR",
+      "committee_name": "Senate Committee on Health, Education, Labor, and Pensions",
+      "category": "Health, Pharma, Biotech & Education",
+      "confidence": "high"
+    },
+    {
+      "committee_id": "SSGA",
+      "committee_name": "Senate Committee on Homeland Security and Governmental Affairs",
+      "category": "Homeland Security & Government Contracting",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SLIN",
+      "committee_name": "Senate Select Committee on Intelligence",
+      "category": "Intelligence & Defense Contracting",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SPAG",
+      "committee_name": "Senate Special Committee on Aging",
+      "category": "Senior Health, Insurance & Long-Term Care",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SLIA",
+      "committee_name": "Senate Committee on Indian Affairs",
+      "category": "Tribal Affairs & Gaming",
+      "confidence": "medium"
+    },
+    {
+      "committee_id": "SSVA",
+      "committee_name": "Senate Committee on Veterans' Affairs",
+      "category": "Veterans Health & Services",
+      "confidence": "medium"
+    }
+  ],
+  "excluded": [
+    {
+      "committee_id": "SSAP",
+      "committee_name": "Senate Committee on Appropriations",
+      "reason": "Jurisdiction is federal spending across every agency and industry; an industry mapping here would match nearly any stock and add noise rather than signal."
+    },
+    {
+      "committee_id": "SSFR",
+      "committee_name": "Senate Committee on Foreign Relations",
+      "reason": "Jurisdiction is diplomatic/foreign-policy oriented rather than tied to a specific domestic industry sector; mapping it would require guessing at company-level foreign exposure, which SIC codes can't do reliably."
+    },
+    {
+      "committee_id": "SSRA",
+      "committee_name": "Senate Committee on Rules and Administration",
+      "reason": "Governs internal Senate operations and federal election administration; not an industry sector."
+    },
+    {
+      "committee_id": "SSSB",
+      "committee_name": "Senate Committee on Small Business and Entrepreneurship",
+      "reason": "Jurisdiction spans small businesses across every industry rather than any specific sector, so any stock purchase could spuriously match."
+    },
+    {
+      "committee_id": "SSBU",
+      "committee_name": "Senate Committee on the Budget",
+      "reason": "Sets overall federal fiscal/budget resolutions; not tied to any specific industry's regulatory jurisdiction."
+    },
+    {
+      "committee_id": "SSJU",
+      "committee_name": "Senate Committee on the Judiciary",
+      "reason": "Jurisdiction is legal/procedural (courts, antitrust enforcement, immigration, civil liberties) rather than industry-specific; matching would produce excessive false positives across the whole market given antitrust's breadth."
+    },
+    {
+      "committee_id": "SLET",
+      "committee_name": "Senate Select Committee on Ethics",
+      "reason": "Oversees Senate member conduct itself, not any external industry."
+    },
+    {
+      "committee_id": "SCNC",
+      "committee_name": "United States Senate Caucus on International Narcotics Control",
+      "reason": "An informal caucus (not a standing committee with legislative jurisdiction) focused on drug policy broadly rather than a tradeable industry sector."
+    }
+  ]
+}

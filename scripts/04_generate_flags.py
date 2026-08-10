@@ -137,6 +137,9 @@ def run(
                 {
                     "flag_id": f"flag-{trade['trade_id']}-{committee_id}",
                     "trade_id": trade["trade_id"],
+                    # Carried through so a flag can link straight back to the
+                    # filing it came from without also loading trades.json.
+                    "report_url": trade.get("report_url"),
                     "bioguide_id": bioguide_id,
                     "senator_name": member["official_full_name"],
                     "party": member["party"],
@@ -165,6 +168,41 @@ def run(
     atomic_write_json(
         DATA_DIR / "flags.json",
         {"generated_at": generated_at, "lookback_days": lookback_days, "flags": flags},
+    )
+
+    # The frontend renders every mapped category, including the ones with zero
+    # flags - "this jurisdiction is mapped and currently clean" is a different
+    # statement from "we never looked at it", and only the map knows the
+    # difference. Excluded committees ship with their stated reason so the
+    # methodology page can show why each one is out of scope.
+    mapped = [
+        {
+            "committee_id": m["committee_id"],
+            "committee_name": committee_names.get(m["committee_id"], m["committee_name"]),
+            "category": m["category"],
+            "confidence": m.get("confidence", "medium"),
+        }
+        for m in industry_map_raw["mappings"]
+        if not m.get("excluded_from_matching")
+    ]
+    excluded = [
+        {
+            "committee_id": m["committee_id"],
+            "committee_name": committee_names.get(m["committee_id"], m["committee_name"]),
+            "reason": (m.get("exclusion_reason") or "").strip(),
+        }
+        for m in industry_map_raw["mappings"]
+        if m.get("excluded_from_matching")
+    ]
+    atomic_write_json(
+        DATA_DIR / "jurisdiction.json",
+        {
+            "generated_at": generated_at,
+            "map_version": industry_map_raw.get("version"),
+            "last_reviewed": industry_map_raw.get("last_reviewed"),
+            "mapped": sorted(mapped, key=lambda m: m["category"]),
+            "excluded": sorted(excluded, key=lambda m: m["committee_name"]),
+        },
     )
 
     previous_meta = read_json(DATA_DIR / "meta.json", default={})

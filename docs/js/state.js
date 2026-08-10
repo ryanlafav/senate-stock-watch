@@ -1,116 +1,178 @@
 // Central app state: current view, filters, sort, and the render loop that
-// ties data.js / filters.js / table.js / detail.js together.
+// ties data.js / filters.js / table.js / dashboard.js / detail.js together.
+//
+// Three views share one shell: "dashboard" (derived aggregates) plus the two
+// table views ("flagged" and "all"), which differ only in their row source and
+// column set.
 const App = (() => {
   const state = {
-    view: "flagged",
+    view: "dashboard",
     filters: { committee: "", party: "", state: "", search: "", highConfidenceOnly: false },
     sortKey: "disclosureDate",
     sortDir: "desc",
     membersById: new Map(),
-    committeesById: new Map(),
     flaggedRows: null,
     allTradeRows: null,
   };
 
-  function partyBadge(party) {
-    const span = document.createElement("span");
-    span.className = `badge badge-${party || "I"}`;
-    span.textContent = party || "?";
-    return span;
+  const fmt = new Intl.NumberFormat("en-US");
+
+  function el(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
   }
+
+  const { initials, shortCommittee } = Format;
+
+  /* ---------------------------------------------------------- renderers --- */
 
   function senatorCell(row) {
-    const div = document.createElement("div");
-    div.className = "senator-cell";
-    const name = document.createElement("span");
-    name.className = "senator-name";
-    name.textContent = row.senatorName;
-    const sub = document.createElement("span");
-    sub.className = "senator-sub";
-    sub.appendChild(partyBadge(row.party));
-    sub.append(` ${row.state || ""}`);
-    div.append(name, sub);
-    return div;
+    const wrap = el("div", "senator-cell");
+    wrap.appendChild(el("span", "av", initials(row.senatorName)));
+
+    const text = el("div");
+    text.appendChild(el("span", "senator-name", row.senatorName));
+    const sub = el("span", "senator-sub");
+    const badge = el("span", `badge badge-${row.party || "I"}`, row.party || "?");
+    sub.append(badge, row.state || "");
+    text.appendChild(sub);
+
+    wrap.appendChild(text);
+    return wrap;
   }
 
-  function tickerCell(row) {
-    const div = document.createElement("div");
-    const t = document.createElement("div");
-    t.className = "ticker";
-    t.textContent = row.ticker || "Unclassified";
-    const sub = document.createElement("div");
-    sub.className = "senator-sub";
-    sub.textContent = row.raw.asset_name || "";
-    div.append(t, sub);
-    return div;
+  function assetCell(row) {
+    const wrap = el("div");
+    wrap.appendChild(el("div", "ticker", row.ticker || "Unclassified"));
+    const name = el("div", "cell-sub", row.raw.asset_name || "");
+    name.title = row.raw.asset_name || "";
+    wrap.appendChild(name);
+    return wrap;
   }
 
-  function recencyLabel(days) {
-    if (days == null) return "";
-    if (days === 0) return "today";
-    if (days === 1) return "1 day ago";
-    return `${days} days ago`;
+  function committeeCell(row) {
+    const wrap = el("div", "committee-cell");
+    const name = el("div", null, shortCommittee(row.committeeName) || "—");
+    name.title = row.committeeName || "";
+    wrap.appendChild(name);
+    wrap.appendChild(el("div", "cell-sub", row.raw.committee_role || ""));
+    return wrap;
+  }
+
+  function disclosedCell(row) {
+    const wrap = el("div");
+    wrap.appendChild(el("div", "num", row.raw.disclosure_date || "—"));
+    const days = row.raw.days_since_disclosure;
+    if (days != null) {
+      const ago = el("div", "cell-sub", days === 0 ? "today" : `${days}d ago`);
+      ago.style.textAlign = "right";
+      wrap.appendChild(ago);
+    }
+    return wrap;
+  }
+
+  function confidenceCell(row) {
+    const level = row.confidence || "low";
+    const cls = level === "high" ? "chip-crit" : level === "medium" ? "chip-warn" : "chip-mute";
+    return el("span", `chip ${cls}`, level.charAt(0).toUpperCase() + level.slice(1));
   }
 
   const FLAGGED_COLUMNS = [
     { key: "senatorName", label: "Senator", sortable: true, sortValue: (r) => r.senatorName, render: senatorCell },
-    { key: "committeeName", label: "Committee", sortable: true, sortValue: (r) => r.committeeName, render: (r) => r.committeeName },
-    { key: "ticker", label: "Ticker / Asset", sortable: true, sortValue: (r) => r.ticker || "", render: tickerCell },
+    { key: "ticker", label: "Asset", sortable: true, sortValue: (r) => r.ticker || "", render: assetCell },
     {
-      key: "matchedCategory",
-      label: "Matched Category",
+      key: "sic",
+      label: "Industry (SIC)",
       sortable: true,
-      sortValue: (r) => r.matchedCategory,
+      sortValue: (r) => r.raw.sic_description || "",
       render: (r) => {
-        const span = document.createElement("span");
-        span.innerHTML = `${r.matchedCategory} <span class="confidence-${r.confidence}">(${r.confidence})</span>`;
-        return span;
+        const cell = el("div", "industry-cell", r.raw.sic_description || "—");
+        cell.title = r.raw.sic ? `${r.raw.sic_description} (SIC ${r.raw.sic})` : "";
+        return cell;
       },
     },
-    { key: "transactionDate", label: "Transaction Date", sortable: true, sortValue: (r) => r.raw.transaction_date || "", render: (r) => r.raw.transaction_date || "—" },
-    { key: "disclosureDate", label: "Disclosure Date", sortable: true, sortValue: (r) => r.raw.disclosure_date || "", render: (r) => r.raw.disclosure_date || "—" },
-    { key: "amountRange", label: "Amount", sortable: true, sortValue: (r) => r.raw.amount_range_min ?? 0, render: (r) => r.raw.amount_range || "—" },
+    { key: "committeeName", label: "Committee", sortable: true, sortValue: (r) => r.committeeName, render: committeeCell },
     {
-      key: "daysSinceDisclosure",
+      key: "amountRange",
+      label: "Amount",
+      className: "align-right num",
+      sortable: true,
+      sortValue: (r) => r.raw.amount_range_min ?? 0,
+      render: (r) => r.raw.amount_range || "—",
+    },
+    {
+      key: "transactionDate",
+      label: "Traded",
+      className: "align-right num muted",
+      sortable: true,
+      sortValue: (r) => r.raw.transaction_date || "",
+      render: (r) => r.raw.transaction_date || "—",
+    },
+    {
+      key: "disclosureDate",
       label: "Disclosed",
+      className: "align-right",
       sortable: true,
-      sortValue: (r) => r.raw.days_since_disclosure,
-      render: (r) => {
-        const span = document.createElement("span");
-        span.className = "recency-chip";
-        span.textContent = recencyLabel(r.raw.days_since_disclosure);
-        return span;
-      },
+      sortValue: (r) => r.raw.disclosure_date || "",
+      render: disclosedCell,
     },
+    { key: "confidence", label: "Match", sortable: true, sortValue: (r) => r.confidence || "", render: confidenceCell },
   ];
 
   const ALL_TRADES_COLUMNS = [
     { key: "senatorName", label: "Senator", sortable: true, sortValue: (r) => r.senatorName, render: senatorCell },
-    { key: "ticker", label: "Ticker / Asset", sortable: true, sortValue: (r) => r.ticker || "", render: tickerCell },
+    { key: "ticker", label: "Asset", sortable: true, sortValue: (r) => r.ticker || "", render: assetCell },
     {
       key: "transactionType",
       label: "Type",
       sortable: true,
       sortValue: (r) => r.raw.transaction_type || "",
       render: (r) => {
-        const isPurchase = (r.raw.transaction_type || "").startsWith("Purchase");
-        const span = document.createElement("span");
-        span.className = `chip ${isPurchase ? "chip-purchase" : "chip-sale"}`;
-        span.textContent = r.raw.transaction_type || (r.raw.parsed_ok ? "—" : "Unparsed filing");
-        return span;
+        const type = r.raw.transaction_type;
+        if (!type) return el("span", "chip chip-mute", r.raw.parsed_ok ? "—" : "Unparsed");
+        const isPurchase = type.startsWith("Purchase");
+        return el("span", `chip ${isPurchase ? "chip-purchase" : "chip-sale"}`, type);
       },
     },
-    { key: "transactionDate", label: "Transaction Date", sortable: true, sortValue: (r) => r.raw.transaction_date || "", render: (r) => r.raw.transaction_date || "—" },
-    { key: "disclosureDate", label: "Disclosure Date", sortable: true, sortValue: (r) => r.raw.disclosure_date || "", render: (r) => r.raw.disclosure_date || "—" },
-    { key: "amountRange", label: "Amount", sortable: true, sortValue: (r) => r.raw.amount_range_min ?? 0, render: (r) => r.raw.amount_range || "—" },
+    {
+      key: "amountRange",
+      label: "Amount",
+      className: "align-right num",
+      sortable: true,
+      sortValue: (r) => r.raw.amount_range_min ?? 0,
+      render: (r) => r.raw.amount_range || "—",
+    },
+    {
+      key: "transactionDate",
+      label: "Traded",
+      className: "align-right num muted",
+      sortable: true,
+      sortValue: (r) => r.raw.transaction_date || "",
+      render: (r) => r.raw.transaction_date || "—",
+    },
+    {
+      key: "disclosureDate",
+      label: "Disclosed",
+      className: "align-right num",
+      sortable: true,
+      sortValue: (r) => r.raw.disclosure_date || "",
+      render: (r) => r.raw.disclosure_date || "—",
+    },
     {
       key: "matchedCategory",
-      label: "Industry Match",
+      label: "Industry match",
       sortable: true,
       sortValue: (r) => r.matchedCategory || "",
-      render: (r) => (r.matchedCategory ? `Matched: ${r.matchedCategory}` : "—"),
+      render: (r) => {
+        if (!r.matchedCategory) return el("span", "muted", "—");
+        return el("span", "chip chip-crit", r.matchedCategory);
+      },
     },
   ];
+
+  /* -------------------------------------------------------- row loading --- */
 
   function normalizeFlag(flag) {
     return {
@@ -138,6 +200,7 @@ const App = (() => {
       state: member ? member.state : null,
       ticker: trade.ticker,
       committeeId: matchingFlags[0]?.committee_id || "",
+      committeeName: matchingFlags[0]?.committee_name || "",
       matchedCategory: matchingFlags.map((f) => f.matched_category).join(", ") || "",
       confidence: matchingFlags[0]?.mapping_confidence || "",
     };
@@ -177,12 +240,16 @@ const App = (() => {
     return [...states].sort().map((s) => ({ value: s, label: s }));
   }
 
-  async function render() {
+  /* ------------------------------------------------------------- render --- */
+
+  async function renderTable() {
     const headEl = document.getElementById("table-head");
     const bodyEl = document.getElementById("table-body");
     const emptyEl = document.getElementById("empty-state");
     const errorEl = document.getElementById("error-state");
+    const loadingEl = document.getElementById("loading-state");
     const countEl = document.getElementById("result-count");
+    const tableEl = document.getElementById("data-table");
     const committeeSelect = document.getElementById("filter-committee");
     const confidenceCheckbox = document.getElementById("filter-confidence");
 
@@ -205,22 +272,25 @@ const App = (() => {
       }
     } catch (err) {
       console.error(err);
-      document.getElementById("data-table").hidden = true;
+      loadingEl.hidden = true;
+      tableEl.hidden = true;
       errorEl.hidden = false;
-      errorEl.textContent = "Couldn't load data. Try refreshing the page - if this keeps happening, the site may be mid-update.";
+      errorEl.textContent =
+        "Couldn't load data. Try refreshing the page - if this keeps happening, the site may be mid-update.";
       return;
     }
-    document.getElementById("data-table").hidden = false;
+
+    loadingEl.hidden = true;
+    tableEl.hidden = false;
 
     const filtered = Filters.apply(rows, state.filters);
     const sorted = TableRenderer.sortRows(filtered, columns, state.sortKey, state.sortDir);
 
-    countEl.textContent = `${filtered.length.toLocaleString()} of ${rows.length.toLocaleString()} shown`;
+    countEl.textContent = `${fmt.format(filtered.length)} of ${fmt.format(rows.length)} shown`;
+    TableRenderer.renderHead(headEl, columns, state.sortKey, state.sortDir, onSort);
 
     if (sorted.length === 0) {
       bodyEl.replaceChildren();
-      headEl.replaceChildren();
-      TableRenderer.renderHead(headEl, columns, state.sortKey, state.sortDir, onSort);
       emptyEl.hidden = false;
       emptyEl.textContent =
         state.view === "flagged" && rows.length === 0
@@ -229,8 +299,33 @@ const App = (() => {
       return;
     }
 
-    TableRenderer.renderHead(headEl, columns, state.sortKey, state.sortDir, onSort);
     TableRenderer.renderBody(bodyEl, columns, sorted, (row) => Detail.show(row));
+  }
+
+  async function render() {
+    const isDashboard = state.view === "dashboard";
+    document.getElementById("view-dashboard").hidden = !isDashboard;
+    document.getElementById("view-table").hidden = isDashboard;
+
+    if (isDashboard) {
+      try {
+        await Dashboard.render();
+      } catch (err) {
+        console.error("Failed to render dashboard", err);
+        document.getElementById("dash-subtitle").textContent =
+          "Couldn't load data. Try refreshing the page.";
+      }
+      return;
+    }
+
+    document.getElementById("table-title").textContent =
+      state.view === "flagged" ? "Flagged Trades" : "All Trades";
+    document.getElementById("table-subtitle").textContent =
+      state.view === "flagged"
+        ? "Click any row for the full match rationale and the original filing"
+        : "Every disclosed transaction the scraper has parsed, flagged or not";
+
+    await renderTable();
   }
 
   function onSort(key) {
@@ -243,16 +338,46 @@ const App = (() => {
     render();
   }
 
-  function setView(view) {
+  const VIEWS = ["dashboard", "flagged", "all"];
+
+  function viewFromHash() {
+    const hash = location.hash.replace(/^#/, "");
+    return VIEWS.includes(hash) ? hash : "dashboard";
+  }
+
+  function setView(view, { pushHash = true } = {}) {
     state.view = view;
-    document.getElementById("tab-flagged").classList.toggle("active", view === "flagged");
-    document.getElementById("tab-flagged").setAttribute("aria-selected", view === "flagged");
-    document.getElementById("tab-all").classList.toggle("active", view === "all");
-    document.getElementById("tab-all").setAttribute("aria-selected", view === "all");
+    if (pushHash) {
+      const target = view === "dashboard" ? " " : `#${view}`;
+      if (location.hash !== `#${view}`) history.replaceState(null, "", target.trim() || location.pathname);
+    }
+
+    document.querySelectorAll(".rail-item[data-view]").forEach((btn) => {
+      if (btn.dataset.view === view) btn.setAttribute("aria-current", "page");
+      else btn.removeAttribute("aria-current");
+    });
+    document.querySelectorAll(".seg button[data-view]").forEach((btn) => {
+      btn.setAttribute("aria-selected", String(btn.dataset.view === view));
+    });
+
     render();
   }
 
-  function wireFilterControls() {
+  // Called from the dashboard leaderboard: jump into the flagged table
+  // pre-filtered to one senator.
+  function showSenator(name) {
+    state.filters.search = name;
+    document.getElementById("filter-search").value = name;
+    setView("flagged");
+  }
+
+  /* --------------------------------------------------------------- wire --- */
+
+  function wireControls() {
+    document.querySelectorAll(".rail-item[data-view], .seg button[data-view]").forEach((btn) => {
+      btn.addEventListener("click", () => setView(btn.dataset.view));
+    });
+
     document.getElementById("filter-committee").addEventListener("change", (e) => {
       state.filters.committee = e.target.value;
       render();
@@ -269,16 +394,28 @@ const App = (() => {
       state.filters.highConfidenceOnly = e.target.checked;
       render();
     });
+
+    const search = document.getElementById("filter-search");
     let searchDebounce;
-    document.getElementById("filter-search").addEventListener("input", (e) => {
+    search.addEventListener("input", (e) => {
       clearTimeout(searchDebounce);
       searchDebounce = setTimeout(() => {
         state.filters.search = e.target.value;
-        render();
+        // Searching from the dashboard is a request to see matching rows.
+        if (state.view === "dashboard" && e.target.value.trim()) setView("flagged");
+        else render();
       }, 150);
     });
-    document.getElementById("tab-flagged").addEventListener("click", () => setView("flagged"));
-    document.getElementById("tab-all").addEventListener("click", () => setView("all"));
+
+    // "/" focuses search, matching the hint in the search box.
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "/" && document.activeElement !== search && !e.metaKey && !e.ctrlKey) {
+        e.preventDefault();
+        search.focus();
+      }
+    });
+
+    window.addEventListener("hashchange", () => setView(viewFromHash(), { pushHash: false }));
   }
 
   function formatRelativeTime(isoString) {
@@ -295,19 +432,28 @@ const App = (() => {
     const metaRow = document.getElementById("meta-row");
     try {
       const meta = await DataStore.meta();
-      metaRow.innerHTML = `
-        <span><span class="dot"></span>Trades checked ${formatRelativeTime(meta.last_trades_refresh_utc)}</span>
-        <span>Roster last verified ${formatRelativeTime(meta.last_roster_refresh_utc)}</span>
-        <span>${meta.counts.flags_total} flags across ${meta.counts.trades_total.toLocaleString()} disclosed trades</span>
-      `;
+      const refreshed = meta.last_trades_refresh_utc;
+      const staleHours = refreshed ? (Date.now() - new Date(refreshed).getTime()) / 3_600_000 : Infinity;
+      metaRow.className = `status-pill${staleHours > 24 ? " is-stale" : ""}`;
+      metaRow.replaceChildren(
+        el("span", "dot"),
+        el("span", null, `Updated ${formatRelativeTime(refreshed)}`)
+      );
+      metaRow.title =
+        `Trades checked ${formatRelativeTime(refreshed)} - ` +
+        `roster verified ${formatRelativeTime(meta.last_roster_refresh_utc)}`;
+
+      const badge = document.getElementById("nav-flag-count");
+      badge.textContent = fmt.format(meta.counts.flags_total);
     } catch (err) {
-      metaRow.textContent = "Could not load status.";
+      metaRow.className = "status-pill is-error";
+      metaRow.replaceChildren(el("span", "dot"), el("span", null, "Status unavailable"));
     }
   }
 
   async function init() {
     Detail.init();
-    wireFilterControls();
+    wireControls();
     renderMetaRow();
 
     try {
@@ -318,8 +464,8 @@ const App = (() => {
       console.error("Failed to load members.json", err);
     }
 
-    render();
+    setView(viewFromHash(), { pushHash: false });
   }
 
-  return { init };
+  return { init, showSenator };
 })();

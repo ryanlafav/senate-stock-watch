@@ -3,79 +3,320 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Senate Stock Watch</title>
-  <meta name="description" content="Flags US Senate stock trades that fall within the industry jurisdiction of a committee the trading senator sits on." />
+  <title>SNAP - Senate trade flags</title>
+  <meta name="description" content="SNAP flags US Senate stock trades that fall within the industry jurisdiction of a committee the trading senator sits on." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <div class="title-row">
-        <h1>Senate Stock Watch</h1>
-        <nav class="header-links">
-          <a href="methodology.html">Methodology &amp; limitations</a>
-          <a href="https://github.com/ryanlafav/senate-stock-watch" id="repo-link" target="_blank" rel="noopener">View on GitHub</a>
-        </nav>
-      </div>
-      <p class="disclaimer">
-        This tool flags topical overlap between a senator's disclosed stock purchases and the committees
-        they sit on. A flag is <strong>not an accusation of wrongdoing</strong> &mdash; it surfaces a
-        correlation worth a closer look. See the <a href="methodology.html">methodology page</a> for how
-        matching works and its limitations.
-      </p>
-      <div class="meta-row" id="meta-row">
-        <span><span class="dot"></span>Loading...</span>
-      </div>
-    </div>
-  </header>
+<div class="app">
 
-  <main class="wrap">
-    <div class="view-tabs" role="tablist">
-      <button class="view-tab active" id="tab-flagged" data-view="flagged" role="tab" aria-selected="true">Flagged Trades</button>
-      <button class="view-tab" id="tab-all" data-view="all" role="tab" aria-selected="false">All Trades</button>
-    </div>
+  <!-- ------------------------------------------------------------ rail --- -->
+  <aside class="rail">
+    <a class="rail-brand" href="index.html">
+      <span class="rail-mark">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#04150f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 21V4"/><path d="M4 5h11l-1.6 3.5L15 12H4"/>
+        </svg>
+      </span>
+      <span class="rail-word">SNAP<span>Senate trade flags</span></span>
+    </a>
 
-    <div class="filter-bar" id="filter-bar">
-      <select id="filter-committee" aria-label="Filter by committee">
-        <option value="">All committees</option>
-      </select>
-      <select id="filter-party" aria-label="Filter by party">
-        <option value="">All parties</option>
-        <option value="D">Democrat</option>
-        <option value="R">Republican</option>
-        <option value="I">Independent</option>
-      </select>
-      <select id="filter-state" aria-label="Filter by state">
-        <option value="">All states</option>
-      </select>
-      <input type="text" id="filter-search" placeholder="Search senator or ticker" aria-label="Search senator or ticker" />
-      <label class="filter-checkbox">
-        <input type="checkbox" id="filter-confidence" />
-        High-confidence matches only
+    <nav class="rail-section" aria-label="Views">
+      <div class="rail-label">Navigation</div>
+      <button class="rail-item" id="nav-dashboard" data-view="dashboard" aria-current="page">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+        <span class="n">Dashboard</span>
+      </button>
+      <button class="rail-item" id="nav-flagged" data-view="flagged">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4"/><path d="M4 5h11l-1.6 3.5L15 12H4"/></svg>
+        <span class="n">Flagged Trades</span>
+        <span class="rail-badge" id="nav-flag-count"></span>
+      </button>
+      <button class="rail-item" id="nav-all" data-view="all">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h12"/></svg>
+        <span class="n">All Trades</span>
+      </button>
+      <div class="rail-item" data-planned title="Planned - not built yet">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="3.2"/><path d="M22 20v-2a4 4 0 0 0-3-3.9"/></svg>
+        <span class="n">Senators</span>
+        <span class="chip chip-planned">Soon</span>
+      </div>
+      <div class="rail-item" data-planned title="Planned - not built yet">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4 3 6.5v13L9 17l6 2.5 6-2.5v-13L15 6.5Z"/><path d="M9 4v13"/><path d="M15 6.5v13"/></svg>
+        <span class="n">Jurisdiction Map</span>
+        <span class="chip chip-planned">Soon</span>
+      </div>
+    </nav>
+
+    <div class="rail-foot">
+      <a class="rail-item" href="methodology.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .9-1 1.7"/><path d="M12 17h.01"/></svg>
+        <span class="n">Methodology</span>
+      </a>
+      <a class="rail-item" id="repo-link" href="https://github.com/ryanlafav/senate-stock-watch" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>
+        <span class="n">View on GitHub</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ------------------------------------------------------------ main --- -->
+  <div class="main">
+
+    <div class="topbar">
+      <label class="search" for="filter-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="text" id="filter-search" placeholder="Search senator or ticker" autocomplete="off" />
+        <span class="kbd">/</span>
       </label>
-      <div class="filter-spacer"></div>
-      <span class="result-count" id="result-count"></span>
+      <div class="top-tools">
+        <span class="status-pill" id="meta-row"><span class="dot"></span><span>Loading data...</span></span>
+        <a class="pill-btn" href="methodology.html">Methodology</a>
+      </div>
     </div>
 
-    <div class="table-container">
-      <table id="data-table">
-        <thead id="table-head"></thead>
-        <tbody id="table-body"></tbody>
-      </table>
-      <div class="empty-state" id="empty-state" hidden></div>
-      <div class="error-state" id="error-state" hidden></div>
-    </div>
-  </main>
+    <!-- ===================================================== dashboard === -->
+    <section id="view-dashboard">
+      <div class="page-title">
+        <span class="ico">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--series-1)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4"/><path d="M4 5h11l-1.6 3.5L15 12H4"/></svg>
+        </span>
+        <div>
+          <h1>Flag Dashboard</h1>
+          <p id="dash-subtitle">Senate purchases inside a committee's mapped industry jurisdiction</p>
+        </div>
+      </div>
 
-  <dialog id="detail-modal">
-    <div class="modal-inner" id="modal-body"></div>
-  </dialog>
+      <div class="grid g-hero">
+        <section class="card">
+          <div class="card-head">
+            <span class="ico">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-2)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg>
+            </span>
+            <div>
+              <h2>Disclosure flow</h2>
+              <p>Filings received per month vs. flags generated</p>
+            </div>
+          </div>
 
-  <script src="js/data.js"></script>
-  <script src="js/table.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/detail.js"></script>
-  <script src="js/state.js"></script>
-  <script src="js/app.js"></script>
+          <div class="hero-figure-row">
+            <span class="hero-figure" id="hero-trades">-</span>
+            <span class="hero-unit">filings tracked</span>
+            <span class="chip chip-crit" id="hero-flag-share" style="margin-left:auto"></span>
+          </div>
+          <p class="hero-sub" id="hero-sub"></p>
+
+          <figure class="chart" id="chart-flow">
+            <div class="tooltip" id="tt-flow" role="status"></div>
+          </figure>
+
+          <div class="legend" style="margin-top:12px">
+            <span class="key"><span class="swatch line" style="background:var(--series-1)"></span>Disclosures</span>
+            <span class="key"><span class="swatch line" style="background:var(--series-2)"></span>Flagged</span>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-head">
+            <span class="ico">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-2)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </span>
+            <div><h2>Pipeline &amp; compliance</h2></div>
+            <div class="right"><span class="chip chip-mute" id="lag-sample"></span></div>
+          </div>
+
+          <div class="meter-block">
+            <div class="mh">
+              <span class="chip chip-crit" id="lag-verdict">-</span>
+              <span>45-day disclosure window</span>
+            </div>
+            <div class="track" id="lag-track"></div>
+            <div class="meter-foot" id="lag-foot"></div>
+          </div>
+
+          <div class="meter-block">
+            <div class="mh">
+              <span class="chip chip-warn" id="sic-verdict">-</span>
+              <span>Ticker classification</span>
+            </div>
+            <div class="track" id="sic-track"></div>
+            <div class="meter-foot" id="sic-foot"></div>
+          </div>
+
+          <div class="meter-block">
+            <div class="mh">
+              <span class="chip chip-good">Mapped</span>
+              <span>Committee jurisdiction</span>
+            </div>
+            <div class="track" id="map-track"></div>
+            <div class="meter-foot" id="map-foot"></div>
+          </div>
+
+          <div class="callout">
+            <span>Last pipeline run</span>
+            <b id="last-run">-</b>
+          </div>
+        </section>
+      </div>
+
+      <div class="grid g-4 mt" id="stat-tiles"></div>
+
+      <section class="card mt">
+        <div class="card-head">
+          <span class="ico">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-2)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4 3 6.5v13L9 17l6 2.5 6-2.5v-13L15 6.5Z"/><path d="M9 4v13"/><path d="M15 6.5v13"/></svg>
+          </span>
+          <div>
+            <h2>Jurisdiction overview</h2>
+            <p id="cat-subtitle">Where flags are concentrating across the mapped categories</p>
+          </div>
+          <div class="right"><span class="chip chip-mute" id="map-version"></span></div>
+        </div>
+
+        <div class="grid g-3" id="cat-features" style="margin-top:14px"></div>
+
+        <figure class="chart" id="chart-cats" style="margin-top:18px">
+          <div class="tooltip" id="tt-cats" role="status"></div>
+        </figure>
+        <div class="legend" style="margin-top:10px">
+          <span class="key"><span class="swatch" style="background:var(--series-1)"></span>High-confidence mapping</span>
+          <span class="key"><span class="swatch" style="background:var(--series-2)"></span>Medium-confidence mapping</span>
+          <span class="key muted">Flat rule = category mapped, no flags in window</span>
+        </div>
+      </section>
+
+      <section class="card mt" id="leaderboard-card">
+        <div class="card-head">
+          <span class="ico">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-2)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M6 4h12v5a6 6 0 0 1-12 0Z"/><path d="M18 5h3v2a3 3 0 0 1-3 3"/><path d="M6 5H3v2a3 3 0 0 0 3 3"/></svg>
+          </span>
+          <div>
+            <h2>Most-flagged senators</h2>
+            <p id="leaderboard-sub">Current disclosure window</p>
+          </div>
+        </div>
+        <div class="grid g-4" id="leaderboard" style="margin-top:14px"></div>
+      </section>
+
+      <section class="card mt">
+        <div class="card-head">
+          <span class="ico">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-2)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18"/><path d="M3 12h18"/></svg>
+          </span>
+          <div>
+            <h2>Not built yet</h2>
+            <p>Reserved surface for features the pipeline does not produce today</p>
+          </div>
+          <div class="right"><span class="chip chip-planned">Roadmap</span></div>
+        </div>
+        <div class="planned-grid">
+          <div class="planned-card">
+            <span class="chip chip-planned">Planned</span>
+            <h3>House of Representatives</h3>
+            <p>House PTRs are scanned PDFs; blocked on a validated OCR parsing approach.</p>
+            <div class="eta">Not scheduled</div>
+          </div>
+          <div class="planned-card">
+            <span class="chip chip-planned">Planned</span>
+            <h3>Senator profile pages</h3>
+            <p>Per-senator filing history, committee tenure and holdings timeline.</p>
+            <div class="eta">Concept</div>
+          </div>
+          <div class="planned-card">
+            <span class="chip chip-planned">Planned</span>
+            <h3>Jurisdiction map view</h3>
+            <p>Browse the committee-to-industry mapping and every SIC prefix behind it.</p>
+            <div class="eta">Concept</div>
+          </div>
+          <div class="planned-card">
+            <span class="chip chip-planned">Planned</span>
+            <h3>Email + RSS alerts</h3>
+            <p>Notify on new flags matching a saved filter. Needs a service; the site is static.</p>
+            <div class="eta">Concept</div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ======================================================== tables === -->
+    <section id="view-table" hidden>
+      <div class="page-title">
+        <span class="ico">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--series-1)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/></svg>
+        </span>
+        <div>
+          <h1 id="table-title">Flagged Trades</h1>
+          <p id="table-subtitle">Click any row for the full match rationale and the original filing</p>
+        </div>
+        <div class="seg" role="tablist">
+          <button id="tab-flagged" data-view="flagged" role="tab" aria-selected="true">Flagged</button>
+          <button id="tab-all" data-view="all" role="tab" aria-selected="false">All trades</button>
+        </div>
+      </div>
+
+      <section class="card">
+        <div class="filters" id="filter-bar">
+          <select id="filter-committee" aria-label="Filter by committee">
+            <option value="">All committees</option>
+          </select>
+          <select id="filter-party" aria-label="Filter by party">
+            <option value="">All parties</option>
+            <option value="D">Democrat</option>
+            <option value="R">Republican</option>
+            <option value="I">Independent</option>
+          </select>
+          <select id="filter-state" aria-label="Filter by state">
+            <option value="">All states</option>
+          </select>
+          <label class="filter-checkbox">
+            <input type="checkbox" id="filter-confidence" />
+            High-confidence only
+          </label>
+          <span class="result-count" id="result-count"></span>
+        </div>
+
+        <div class="table-scroll">
+          <table id="data-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+        <div class="loading-state" id="loading-state">Loading...</div>
+        <div class="empty-state" id="empty-state" hidden></div>
+        <div class="error-state" id="error-state" hidden></div>
+
+        <div class="notice">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+          <span><b>A flag is not an accusation of wrongdoing.</b> It marks a topical overlap between a
+          disclosed purchase and a committee the senator sits on. Amounts are filed as ranges, so
+          every dollar figure here is a midpoint estimate. See
+          <a href="methodology.html">Methodology &amp; limitations</a>.</span>
+        </div>
+      </section>
+    </section>
+
+    <footer class="site-footer">
+      <span><b style="color:var(--ink-2)">SNAP</b> - static site, no backend</span>
+      <a href="methodology.html">Methodology</a>
+      <a href="https://github.com/ryanlafav/senate-stock-watch" target="_blank" rel="noopener">GitHub</a>
+      <span class="spacer">efdsearch.senate.gov &middot; SEC EDGAR &middot; unitedstates/congress-legislators</span>
+    </footer>
+
+  </div>
+</div>
+
+<dialog id="detail-modal">
+  <div class="modal-inner" id="modal-body"></div>
+</dialog>
+
+<script src="js/format.js"></script>
+<script src="js/data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/table.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/state.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

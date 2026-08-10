@@ -3,77 +3,166 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Methodology &amp; limitations - Senate Stock Watch</title>
+  <title>Methodology &amp; limitations - SNAP</title>
+  <meta name="description" content="How SNAP matches Senate stock purchases to committee jurisdiction, and where that matching falls short." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <div class="title-row">
-        <h1>Methodology &amp; Limitations</h1>
-        <nav class="header-links">
-          <a href="index.html">&larr; Back to dashboard</a>
-        </nav>
+<div class="app">
+
+  <aside class="rail">
+    <a class="rail-brand" href="index.html">
+      <span class="rail-mark">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#04150f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 21V4"/><path d="M4 5h11l-1.6 3.5L15 12H4"/>
+        </svg>
+      </span>
+      <span class="rail-word">SNAP<span>Senate trade flags</span></span>
+    </a>
+
+    <nav class="rail-section" aria-label="Views">
+      <div class="rail-label">Navigation</div>
+      <a class="rail-item" href="index.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+        <span class="n">Dashboard</span>
+      </a>
+      <a class="rail-item" href="index.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4"/><path d="M4 5h11l-1.6 3.5L15 12H4"/></svg>
+        <span class="n">Flagged Trades</span>
+      </a>
+      <a class="rail-item" href="index.html">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h12"/></svg>
+        <span class="n">All Trades</span>
+      </a>
+    </nav>
+
+    <div class="rail-foot">
+      <a class="rail-item" href="methodology.html" aria-current="page">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .9-1 1.7"/><path d="M12 17h.01"/></svg>
+        <span class="n">Methodology</span>
+      </a>
+      <a class="rail-item" href="https://github.com/ryanlafav/senate-stock-watch" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>
+        <span class="n">View on GitHub</span>
+      </a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <a class="pill-btn" href="index.html">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+        Back to dashboard
+      </a>
+    </div>
+
+    <div class="page-title">
+      <span class="ico">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--series-1)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.6 9a2.5 2.5 0 1 1 3.4 2.3c-.7.3-1 .9-1 1.7"/><path d="M12 17h.01"/></svg>
+      </span>
+      <div>
+        <h1>Methodology &amp; limitations</h1>
+        <p>How a flag is generated, and everything it deliberately does not claim</p>
       </div>
     </div>
-  </header>
 
-  <main class="wrap prose">
-    <h2>What this site does</h2>
-    <p>
-      Senate Stock Watch flags a senator's disclosed stock purchase when it falls within an industry that a
-      committee they currently sit on has jurisdiction over. It exists to surface topical correlations worth a
-      closer look, not to accuse anyone of wrongdoing.
-    </p>
+    <section class="card">
+      <div class="notice" style="margin-top:0">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+        <span><b>A flag is not an accusation of wrongdoing.</b> It surfaces a topical correlation
+        worth a closer look - nothing on this site establishes intent, knowledge, or any
+        violation of law.</span>
+      </div>
 
-    <h2>Where the data comes from</h2>
-    <p>
-      Every trade shown here is scraped directly from
-      <a href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener">efdsearch.senate.gov</a>,
-      the Senate's own official financial disclosure system, where senators file Periodic Transaction Reports
-      (PTRs) as required by the STOCK Act. Committee assignments come from the
-      <a href="https://github.com/unitedstates/congress-legislators" target="_blank" rel="noopener">unitedstates/congress-legislators</a>
-      open civic-data project. Each ticker's industry classification comes from
-      <a href="https://www.sec.gov/" target="_blank" rel="noopener">SEC EDGAR</a>'s SIC code for the issuing company.
-      Nothing here comes from a third-party paid data vendor.
-    </p>
+      <article class="prose" style="margin-top:22px">
+        <h2>What this site does</h2>
+        <p>
+          SNAP flags a senator's disclosed stock purchase when it falls within an industry that a
+          committee they currently sit on has jurisdiction over. It exists to surface topical
+          correlations worth a closer look, not to accuse anyone of wrongdoing.
+        </p>
 
-    <h2>How a "flag" is generated</h2>
-    <p>A trade is flagged when all of the following are true:</p>
-    <ul>
-      <li>It's a <strong>Purchase</strong> (sales are shown in the All Trades view but never flagged).</li>
-      <li>Its ticker was successfully classified with an SIC industry code by SEC EDGAR.</li>
-      <li>It was <strong>disclosed within the last 45 days</strong> - the same window the STOCK Act itself requires senators to disclose within, so this reflects the most recently public information.</li>
-      <li>The trading senator currently sits on a committee whose curated industry mapping matches that ticker's SIC code (or, as a fallback, a keyword in the asset's name).</li>
-    </ul>
+        <h2>Where the data comes from</h2>
+        <p>
+          Every trade shown here is scraped directly from
+          <a href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener">efdsearch.senate.gov</a>,
+          the Senate's own official financial disclosure system, where senators file Periodic Transaction
+          Reports (PTRs) as required by the STOCK Act. Committee assignments come from the
+          <a href="https://github.com/unitedstates/congress-legislators" target="_blank" rel="noopener">unitedstates/congress-legislators</a>
+          open civic-data project. Each ticker's industry classification comes from
+          <a href="https://www.sec.gov/" target="_blank" rel="noopener">SEC EDGAR</a>'s SIC code for the
+          issuing company. Nothing here comes from a third-party paid data vendor.
+        </p>
 
-    <h2>The committee&rarr;industry mapping is a judgment call</h2>
-    <p>
-      There is no free, authoritative dataset that says "Committee X has jurisdiction over industry Y."
-      That mapping is hand-curated and maintained in
-      <code>config/committee_industry_map.yaml</code> in this project's GitHub repository, versioned like
-      code and open to review by anyone. Each mapping carries a <strong>confidence</strong> level (shown on
-      every flag) reflecting how cleanly that committee's real legislative jurisdiction maps onto a specific
-      set of industries. Committees whose jurisdiction is procedural or spans virtually every industry
-      (Appropriations, Budget, Judiciary, Rules, Small Business, and a few others) are deliberately excluded
-      from matching entirely, since forcing an industry mapping onto them would mostly produce noise.
-    </p>
+        <h2>How a "flag" is generated</h2>
+        <p>A trade is flagged when all of the following are true:</p>
+        <ul>
+          <li>It's a <strong>Purchase</strong> (sales are shown in the All Trades view but never flagged).</li>
+          <li>Its ticker was successfully classified with an SIC industry code by SEC EDGAR.</li>
+          <li>It was <strong>disclosed within the last 45 days</strong> - the same window the STOCK Act
+              requires senators to disclose within, so this reflects the most recently public information.</li>
+          <li>The trading senator currently sits on a committee whose curated industry mapping matches that
+              ticker's SIC code (or, as a fallback, a keyword in the asset's name).</li>
+        </ul>
 
-    <h2>Other limitations worth knowing</h2>
-    <ul>
-      <li><strong>Amounts are ranges, not exact figures.</strong> The STOCK Act only requires disclosure of a dollar range (e.g. "$1,001 - $15,000"), never the precise trade size.</li>
-      <li><strong>Disclosure can lag the actual trade by up to 45 days.</strong> The dashboard's recency is relative to disclosure date, not the date the trade actually happened.</li>
-      <li><strong>Some filings are scanned/handwritten rather than structured</strong> and can't be reliably auto-parsed. These show up as "unparsed" rather than being silently dropped.</li>
-      <li><strong>Not every ticker can be classified.</strong> Bonds, options, mutual funds, and some foreign issuers aren't in SEC's ticker map and are shown as "unclassified" rather than hidden.</li>
-      <li><strong>This project currently covers the Senate only.</strong> House disclosures are largely scanned/handwritten PDFs that can't be reliably parsed yet, so House data is not included.</li>
-    </ul>
+        <h2>The committee&rarr;industry mapping is a judgment call</h2>
+        <p>
+          There is no free, authoritative dataset that says "Committee X has jurisdiction over industry Y."
+          That mapping is hand-curated and maintained in
+          <code>config/committee_industry_map.yaml</code> in this project's GitHub repository, versioned like
+          code and open to review by anyone. Each mapping carries a <strong>confidence</strong> level (shown
+          on every flag) reflecting how cleanly that committee's real legislative jurisdiction maps onto a
+          specific set of industries. Committees whose jurisdiction is procedural or spans virtually every
+          industry are deliberately excluded from matching entirely, since forcing an industry mapping onto
+          them would mostly produce noise.
+        </p>
+        <p>
+          The dashboard's jurisdiction chart lists <strong>every mapped category, including those with zero
+          flags</strong>. That distinction matters: a category sitting at zero means it was checked and
+          nothing matched, not that it was never examined.
+        </p>
 
-    <h2>Data freshness</h2>
-    <p>
-      Trade data refreshes automatically on a schedule (see the "Trades checked" timestamp on the dashboard).
-      The senator/committee roster refreshes separately and less often, since it only changes when a new
-      Congress is sworn in or committee assignments shift (see "Roster last verified").
-    </p>
-  </main>
+        <h2>Why the dashboard shows a filing-lag breakdown</h2>
+        <p>
+          The STOCK Act requires disclosure within 45 days of a transaction. In practice a large share of
+          filings arrive well past that, which is why the dashboard reports the median lag and the share
+          past the window. Late filing is a <strong>data-quality signal about the source</strong>, not a
+          flag against the senator, and it never contributes to whether a trade is flagged.
+        </p>
+
+        <h2>Other limitations worth knowing</h2>
+        <ul>
+          <li><strong>Amounts are ranges, not exact figures.</strong> The STOCK Act only requires disclosure
+              of a dollar range (e.g. "$1,001 - $15,000"), never the precise trade size. Every dollar total
+              on this site is the midpoint of those ranges and is labelled as an estimate.</li>
+          <li><strong>Disclosure can lag the actual trade substantially.</strong> Recency on the dashboard
+              is relative to the disclosure date, not the date the trade actually happened.</li>
+          <li><strong>Some filings are scanned or handwritten rather than structured</strong> and can't be
+              reliably auto-parsed. These show up as "unparsed" rather than being silently dropped.</li>
+          <li><strong>Not every ticker can be classified.</strong> Bonds, options, mutual funds, and some
+              foreign issuers aren't in SEC's ticker map and are shown as "unclassified" rather than hidden.</li>
+          <li><strong>A senator's committee membership is read as of today,</strong> not as of the trade
+              date. A trade made before joining a committee can still flag against it.</li>
+          <li><strong>This project currently covers the Senate only.</strong> House disclosures are largely
+              scanned or handwritten PDFs that can't be reliably parsed yet, so House data is not included.</li>
+        </ul>
+
+        <h2>Data freshness</h2>
+        <p>
+          Trade data refreshes automatically on a schedule - the status pill at the top of the dashboard
+          shows when it last ran. The senator/committee roster refreshes separately and less often, since it
+          only changes when a new Congress is sworn in or committee assignments shift.
+        </p>
+      </article>
+    </section>
+
+    <footer class="site-footer">
+      <span><b style="color:var(--ink-2)">SNAP</b> - static site, no backend</span>
+      <a href="index.html">Dashboard</a>
+      <a href="https://github.com/ryanlafav/senate-stock-watch" target="_blank" rel="noopener">GitHub</a>
+      <span class="spacer">efdsearch.senate.gov &middot; SEC EDGAR &middot; unitedstates/congress-legislators</span>
+    </footer>
+  </div>
+</div>
 </body>
 </html>

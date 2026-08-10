@@ -100,6 +100,52 @@ def test_flags_a_purchase_in_committee_jurisdiction(gf, tmp_path):
     assert flags[0]["mapping_confidence"] in {"high", "medium"}
 
 
+def test_flag_carries_report_url_back_to_the_filing(gf, tmp_path):
+    url = "https://efdsearch.senate.gov/search/view/ptr/abc-123/"
+    _write_data_dir(
+        tmp_path,
+        trades=[_trade(report_url=url)],
+        sic_cache={"JPM": JPM_SIC},
+        committee_membership=[MEMBERSHIP],
+        members=[MEMBER],
+        committees=[COMMITTEE],
+    )
+    gf.run(CONFIG)
+    flags = json.loads((tmp_path / "docs" / "data" / "flags.json").read_text())["flags"]
+    assert flags[0]["report_url"] == url
+
+
+def test_jurisdiction_json_lists_mapped_and_excluded_committees(gf, tmp_path):
+    _write_data_dir(
+        tmp_path,
+        trades=[],
+        sic_cache={},
+        committee_membership=[],
+        members=[],
+        committees=[COMMITTEE],
+    )
+    gf.run(CONFIG)
+    doc = json.loads((tmp_path / "docs" / "data" / "jurisdiction.json").read_text())
+
+    # Every mapped entry needs the fields the dashboard renders, and the two
+    # groups must be disjoint - a committee is either matchable or excluded.
+    assert doc["mapped"] and doc["excluded"]
+    for entry in doc["mapped"]:
+        assert entry["category"]
+        assert entry["confidence"] in {"high", "medium", "low"}
+    for entry in doc["excluded"]:
+        assert entry["reason"], f"{entry['committee_id']} is excluded with no stated reason"
+
+    mapped_ids = {m["committee_id"] for m in doc["mapped"]}
+    excluded_ids = {m["committee_id"] for m in doc["excluded"]}
+    assert not (mapped_ids & excluded_ids)
+
+    # Committees present in committees.json get their official name, not the
+    # short one carried in the YAML.
+    banking = next(m for m in doc["mapped"] if m["committee_id"] == "SSBK")
+    assert banking["committee_name"] == COMMITTEE["name"]
+
+
 def test_sale_is_not_flagged(gf, tmp_path):
     _write_data_dir(
         tmp_path,
