@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:01:10.110333+00:00",
+  "generated_at": "2026-08-10T02:34:47.657442+00:00",
   "lookback_days": 45,
   "flags": [
     {
@@ -22,8 +22,8 @@
       "transaction_date": "2024-03-21",
       "disclosure_date": "2026-08-05",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-548cacbf-7cf2-42cb-9f23-71250938caae-14-SSHR",
@@ -45,8 +45,8 @@
       "transaction_date": "2024-03-21",
       "disclosure_date": "2026-08-05",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-548cacbf-7cf2-42cb-9f23-71250938caae-13-SSHR",
@@ -68,8 +68,8 @@
       "transaction_date": "2024-03-21",
       "disclosure_date": "2026-08-05",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of HUMA (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-0a25588d-a3f8-4ed6-971a-706097f78e3a-83-SSHR",
@@ -91,8 +91,8 @@
       "transaction_date": "2024-05-10",
       "disclosure_date": "2026-08-05",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-0a25588d-a3f8-4ed6-971a-706097f78e3a-82-SSHR",
@@ -114,8 +114,8 @@
       "transaction_date": "2024-05-10",
       "disclosure_date": "2026-08-05",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-0a25588d-a3f8-4ed6-971a-706097f78e3a-81-SSHR",
@@ -137,8 +137,8 @@
       "transaction_date": "2024-05-10",
       "disclosure_date": "2026-08-05",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 4,
-      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 4 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 5,
+      "rationale": "Senator Tommy Tuberville sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 5 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-679-SSHR",
@@ -160,8 +160,8 @@
       "transaction_date": "2026-03-31",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVS (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVS (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-670-SSHR",
@@ -183,8 +183,8 @@
       "transaction_date": "2026-03-31",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of AZN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of AZN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-639-SSHR",
@@ -206,8 +206,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of TEVA (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of TEVA (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-577-SSHR",
@@ -229,8 +229,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of SNY (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of SNY (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-558-SSHR",
@@ -252,8 +252,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of DGX (Services-Medical Laboratories) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of DGX (Services-Medical Laboratories) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-536-SSHR",
@@ -275,8 +275,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVO (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVO (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-535-SSHR",
@@ -298,8 +298,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVS (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of NVS (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-467-SSHR",
@@ -321,8 +321,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of JNJ (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of JNJ (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-410-SSHR",
@@ -344,8 +344,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GMAB (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GMAB (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-351-SSHR",
@@ -367,8 +367,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of VRTX (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of VRTX (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-304-SSHR",
@@ -390,8 +390,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of REGN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of REGN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-301-SSHR",
@@ -413,8 +413,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of DGX (Services-Medical Laboratories) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of DGX (Services-Medical Laboratories) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-217-SSHR",
@@ -436,8 +436,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of AZN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of AZN (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-202-SSHR",
@@ -459,8 +459,8 @@
       "transaction_date": "2026-03-30",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of ARGX (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of ARGX (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-169-SSHR",
@@ -482,8 +482,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of LH (Services-Medical Laboratories) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of LH (Services-Medical Laboratories) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-158-SSHR",
@@ -505,8 +505,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of JNJ (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of JNJ (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-132-SSHR",
@@ -528,8 +528,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of GILD (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-56-SSHR",
@@ -551,8 +551,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of BMY (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of BMY (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-51-SSHR",
@@ -574,8 +574,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of BIIB (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of BIIB (Biological Products, (No Diagnostic Substances)) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-fda235b3-bad7-4637-8fa1-053f354d929c-11-SSHR",
@@ -597,8 +597,8 @@
       "transaction_date": "2026-03-27",
       "disclosure_date": "2026-07-21",
       "amount_range": "$15,001 - $50,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of ABBV (Pharmaceutical Preparations) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Alan Armstrong sits on the Senate Committee on Health, Education, Labor, and Pensions (Member), which has jurisdiction mapped to \"Health, Pharma, Biotech & Education\". This purchase of ABBV (Pharmaceutical Preparations) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-cff197e2-b90b-4b53-b97d-eecf226a1980-2-SSCM",
@@ -620,8 +620,8 @@
       "transaction_date": "2026-06-23",
       "disclosure_date": "2026-07-21",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 19,
-      "rationale": "Senator Jerry Moran sits on the Senate Committee on Commerce, Science, and Transportation (Member), which has jurisdiction mapped to \"Commerce, Transportation & Technology\". This purchase of GOOG (Services-Computer Programming, Data Processing, Etc.) matched via SIC classification and was disclosed 19 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 20,
+      "rationale": "Senator Jerry Moran sits on the Senate Committee on Commerce, Science, and Transportation (Member), which has jurisdiction mapped to \"Commerce, Transportation & Technology\". This purchase of GOOG (Services-Computer Programming, Data Processing, Etc.) matched via SIC classification and was disclosed 20 days ago, within the 45-day flagging window."
     },
     {
       "flag_id": "flag-efd-40fbe259-f282-4982-a53f-1c7278d041cd-1-SSCM",
@@ -643,8 +643,8 @@
       "transaction_date": "2026-06-29",
       "disclosure_date": "2026-07-02",
       "amount_range": "$1,001 - $15,000",
-      "days_since_disclosure": 38,
-      "rationale": "Senator Gary C. Peters sits on the Senate Committee on Commerce, Science, and Transportation (Member), which has jurisdiction mapped to \"Commerce, Transportation & Technology\". This purchase of T (Telephone Communications (No Radiotelephone)) matched via SIC classification and was disclosed 38 days ago, within the 45-day flagging window."
+      "days_since_disclosure": 39,
+      "rationale": "Senator Gary C. Peters sits on the Senate Committee on Commerce, Science, and Transportation (Member), which has jurisdiction mapped to \"Commerce, Transportation & Technology\". This purchase of T (Telephone Communications (No Radiotelephone)) matched via SIC classification and was disclosed 39 days ago, within the 45-day flagging window."
     }
   ]
 }
