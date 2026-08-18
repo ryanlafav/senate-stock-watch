@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:50:34.485193+00:00",
+  "generated_at": "2026-08-18T01:51:06.480088+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3302,6 +3302,22 @@
       "sic": "3842",
       "sic_description": "Orthopedic, Prosthetic & Surgical Appliances & Supplies",
       "last_checked": "2026-08-08"
+    },
+    "APTV": {
+      "found": true,
+      "cik": "0001521332",
+      "company_name": "Aptiv PLC",
+      "sic": "3714",
+      "sic_description": "Motor Vehicle Parts & Accessories",
+      "last_checked": "2026-08-18"
+    },
+    "EL": {
+      "found": true,
+      "cik": "0001001250",
+      "company_name": "ESTEE LAUDER COMPANIES INC",
+      "sic": "2844",
+      "sic_description": "Perfumes, Cosmetics & Other Toilet Preparations",
+      "last_checked": "2026-08-18"
     }
   }
 }
