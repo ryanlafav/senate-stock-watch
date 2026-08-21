@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:51:06.480088+00:00",
+  "generated_at": "2026-08-21T01:57:48.306676+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3318,6 +3318,16 @@
       "sic": "2844",
       "sic_description": "Perfumes, Cosmetics & Other Toilet Preparations",
       "last_checked": "2026-08-18"
+    },
+    "COLPAL": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-21"
+    },
+    "HYG": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-21"
     }
   }
 }
