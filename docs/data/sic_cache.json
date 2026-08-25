@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:57:48.306676+00:00",
+  "generated_at": "2026-08-25T01:52:58.953895+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3328,6 +3328,11 @@
       "found": false,
       "reason": "not_in_sec_ticker_map",
       "last_checked": "2026-08-21"
+    },
+    "AAXJ": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-08-25"
     }
   }
 }

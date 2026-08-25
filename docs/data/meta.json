@@ -1,16 +1,16 @@
 {
   "pipeline_version": "1.0.0",
-  "last_run_finished_utc": "2026-08-24T18:59:47.784056+00:00",
+  "last_run_finished_utc": "2026-08-25T01:52:59.049626+00:00",
   "last_roster_refresh_utc": "2026-08-24T11:58:40.093856+00:00",
-  "last_trades_refresh_utc": "2026-08-24T18:59:47.743940+00:00",
+  "last_trades_refresh_utc": "2026-08-25T01:52:57.412767+00:00",
   "lookback_days": 45,
   "counts": {
     "members": 100,
     "committees": 21,
-    "trades_total": 1172,
+    "trades_total": 1186,
     "flags_total": 27,
     "tickers_classified": 391,
-    "tickers_unclassified": 40
+    "tickers_unclassified": 41
   },
   "warnings": [],
   "sources": {
