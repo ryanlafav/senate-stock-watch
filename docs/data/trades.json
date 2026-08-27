@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:03:28.461014+00:00",
+  "generated_at": "2026-08-27T09:49:27.992832+00:00",
   "trades": [
     {
       "trade_id": "efd-fda235b3-bad7-4637-8fa1-053f354d929c-703",
@@ -26092,6 +26092,28 @@
       "comment": "",
       "parsed_ok": true,
       "scraped_at": "2026-08-25T01:52:57.412767+00:00"
+    },
+    {
+      "trade_id": "efd-ec20cd93-6702-4a29-b3a6-983f4b17f365-unparsed",
+      "bioguide_id": "B001277",
+      "senator_name_raw": "RICHARD BLUMENTHAL",
+      "report_id": "ec20cd93-6702-4a29-b3a6-983f4b17f365",
+      "report_url": "https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/",
+      "filing_type": "PTR",
+      "chamber": "senate",
+      "transaction_date": null,
+      "disclosure_date": "2026-08-21",
+      "owner": null,
+      "ticker": null,
+      "asset_name": null,
+      "asset_type": null,
+      "transaction_type": null,
+      "amount_range": null,
+      "amount_range_min": null,
+      "amount_range_max": null,
+      "comment": null,
+      "parsed_ok": false,
+      "scraped_at": "2026-08-27T09:49:27.992832+00:00"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "pipeline_version": "1.0.0",
-  "last_run_finished_utc": "2026-08-26T20:03:28.514399+00:00",
+  "last_run_finished_utc": "2026-08-27T09:49:29.538497+00:00",
   "last_roster_refresh_utc": "2026-08-24T11:58:40.093856+00:00",
-  "last_trades_refresh_utc": "2026-08-26T20:03:28.461014+00:00",
+  "last_trades_refresh_utc": "2026-08-27T09:49:27.992832+00:00",
   "lookback_days": 45,
   "counts": {
     "members": 100,
     "committees": 21,
-    "trades_total": 1186,
+    "trades_total": 1187,
     "flags_total": 27,
     "tickers_classified": 391,
     "tickers_unclassified": 41
