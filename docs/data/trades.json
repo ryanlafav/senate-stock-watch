@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:20:41.175809+00:00",
+  "generated_at": "2026-08-29T07:04:51.390235+00:00",
   "trades": [
     {
       "trade_id": "efd-fda235b3-bad7-4637-8fa1-053f354d929c-703",
@@ -27258,6 +27258,28 @@
       "comment": "",
       "parsed_ok": true,
       "scraped_at": "2026-08-28T11:23:55.961968+00:00"
+    },
+    {
+      "trade_id": "efd-5a76ceb6-2d1d-4430-8a17-6512bcb402be-1",
+      "bioguide_id": "C001088",
+      "senator_name_raw": "Christopher A Coons",
+      "report_id": "5a76ceb6-2d1d-4430-8a17-6512bcb402be",
+      "report_url": "https://efdsearch.senate.gov/search/view/ptr/5a76ceb6-2d1d-4430-8a17-6512bcb402be/",
+      "filing_type": "PTR",
+      "chamber": "senate",
+      "transaction_date": "2026-08-07",
+      "disclosure_date": "2026-08-28",
+      "owner": "Spouse",
+      "ticker": null,
+      "asset_name": "W.L. Gore & Associates, Inc. Company: W.L. Gore & Associates, Inc. (Newark, Delaware) Description: Advanced materials manufacturing",
+      "asset_type": "Non-Public Stock",
+      "transaction_type": "Sale (Partial)",
+      "amount_range": "$100,001 - $250,000",
+      "amount_range_min": 100001,
+      "amount_range_max": 250000,
+      "comment": "",
+      "parsed_ok": true,
+      "scraped_at": "2026-08-29T07:04:51.390235+00:00"
     }
   ]
 }
