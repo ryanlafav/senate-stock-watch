@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:07:26.508831+00:00",
+  "generated_at": "2026-09-07T16:38:50.387193+00:00",
   "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml",
   "memberships": [
     {
@@ -1124,9 +1124,9 @@
     },
     {
       "committee_id": "SSBU",
-      "bioguide_id": "G000386",
+      "bioguide_id": "J000293",
       "rank": 1,
-      "title": null,
+      "title": "Chairman",
       "party": "majority"
     },
     {
@@ -1138,7 +1138,7 @@
     },
     {
       "committee_id": "SSBU",
-      "bioguide_id": "C000880",
+      "bioguide_id": "G000386",
       "rank": 2,
       "title": null,
       "party": "majority"
@@ -1152,7 +1152,7 @@
     },
     {
       "committee_id": "SSBU",
-      "bioguide_id": "J000293",
+      "bioguide_id": "C000880",
       "rank": 3,
       "title": null,
       "party": "majority"
