@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:43:16.839838+00:00",
+  "generated_at": "2026-09-12T04:34:45.799342+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3352,6 +3352,29 @@
       "sic": "5990",
       "sic_description": "Retail-Retail Stores, NEC",
       "last_checked": "2026-09-10"
+    },
+    "AVUV": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-09-12"
+    },
+    "CEG": {
+      "found": true,
+      "cik": "0001868275",
+      "company_name": "Constellation Energy Corp",
+      "sic": "4911",
+      "sic_description": "Electric Services",
+      "last_checked": "2026-09-12"
+    },
+    "IJR": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-09-12"
+    },
+    "WWSYX": {
+      "found": false,
+      "reason": "not_in_sec_ticker_map",
+      "last_checked": "2026-09-12"
     }
   }
 }
