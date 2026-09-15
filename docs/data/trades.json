@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:49:55.319739+00:00",
+  "generated_at": "2026-09-15T04:55:15.133285+00:00",
   "trades": [
     {
       "trade_id": "efd-fda235b3-bad7-4637-8fa1-053f354d929c-703",
@@ -27786,6 +27786,28 @@
       "comment": "",
       "parsed_ok": true,
       "scraped_at": "2026-09-12T04:34:42.791516+00:00"
+    },
+    {
+      "trade_id": "efd-e67c6e56-c81e-4e74-b960-849a460165e2-1",
+      "bioguide_id": "K000383",
+      "senator_name_raw": "Angus S King, Jr.",
+      "report_id": "e67c6e56-c81e-4e74-b960-849a460165e2",
+      "report_url": "https://efdsearch.senate.gov/search/view/ptr/e67c6e56-c81e-4e74-b960-849a460165e2/",
+      "filing_type": "PTR",
+      "chamber": "senate",
+      "transaction_date": "2026-08-05",
+      "disclosure_date": "2026-09-14",
+      "owner": "Spouse",
+      "ticker": null,
+      "asset_name": "EA - Electronic Arts Inc",
+      "asset_type": "Stock",
+      "transaction_type": "Sale (Full)",
+      "amount_range": "$15,001 - $50,000",
+      "amount_range_min": 15001,
+      "amount_range_max": 50000,
+      "comment": "",
+      "parsed_ok": true,
+      "scraped_at": "2026-09-15T04:55:15.133285+00:00"
     }
   ]
 }
