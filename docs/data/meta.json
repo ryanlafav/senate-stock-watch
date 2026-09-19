@@ -1,8 +1,8 @@
 {
   "pipeline_version": "1.0.0",
-  "last_run_finished_utc": "2026-09-18T20:54:52.812219+00:00",
+  "last_run_finished_utc": "2026-09-19T04:38:13.776636+00:00",
   "last_roster_refresh_utc": "2026-09-14T17:02:11.914729+00:00",
-  "last_trades_refresh_utc": "2026-09-18T20:54:52.759491+00:00",
+  "last_trades_refresh_utc": "2026-09-19T04:38:13.722395+00:00",
   "lookback_days": 45,
   "counts": {
     "members": 100,
