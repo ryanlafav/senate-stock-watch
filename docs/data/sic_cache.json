@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T04:34:45.799342+00:00",
+  "generated_at": "2026-09-20T04:54:13.964237+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3325,12 +3325,12 @@
     "COLPAL": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-08-21"
+      "last_checked": "2026-09-20"
     },
     "HYG": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-08-21"
+      "last_checked": "2026-09-20"
     },
     "AAXJ": {
       "found": false,
