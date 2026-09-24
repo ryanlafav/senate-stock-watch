@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T04:54:13.964237+00:00",
+  "generated_at": "2026-09-24T04:51:43.719443+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3335,7 +3335,7 @@
     "AAXJ": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-08-25"
+      "last_checked": "2026-09-24"
     },
     "ALNY": {
       "found": true,
