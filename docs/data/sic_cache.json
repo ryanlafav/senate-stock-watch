@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:51:43.719443+00:00",
+  "generated_at": "2026-10-07T06:00:23.032109+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -36,7 +36,7 @@
     "ABNFX": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "ABT": {
       "found": true,
@@ -129,7 +129,7 @@
     "AGZ": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "AIG": {
       "found": true,
@@ -302,7 +302,7 @@
     "ARKK": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "ASML": {
       "found": true,
@@ -467,7 +467,7 @@
     "BRK.B": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "BRO": {
       "found": true,
@@ -664,7 +664,7 @@
     "CMBS": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "CMCSA": {
       "found": true,
@@ -1021,7 +1021,7 @@
     "EFA": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "EG": {
       "found": true,
@@ -1034,12 +1034,12 @@
     "EIBLX": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "EIPI": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "ELS": {
       "found": true,
@@ -1236,7 +1236,7 @@
     "FTGC": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "FTNT": {
       "found": true,
@@ -1257,7 +1257,7 @@
     "GBIL": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "GD": {
       "found": true,
@@ -1294,7 +1294,7 @@
     "GEM": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "GEN": {
       "found": true,
@@ -1323,7 +1323,7 @@
     "GIGB": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "GILD": {
       "found": true,
@@ -1600,17 +1600,17 @@
     "IEF": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "IEI": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "IGV": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "INFY": {
       "found": true,
@@ -1671,17 +1671,17 @@
     "IVV": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "IVW": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "IWM": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "IX": {
       "found": true,
@@ -1702,7 +1702,7 @@
     "JMBS": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "JNJ": {
       "found": true,
@@ -1851,7 +1851,7 @@
     "LITP": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "LLY": {
       "found": true,
@@ -1960,7 +1960,7 @@
     "MBB": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "MCD": {
       "found": true,
@@ -2613,7 +2613,7 @@
     "RNWGX": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "RSG": {
       "found": true,
@@ -2658,7 +2658,7 @@
     "SCHP": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "SCHW": {
       "found": true,
@@ -2671,7 +2671,7 @@
     "SHY": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "SJM": {
       "found": true,
@@ -2780,7 +2780,7 @@
     "SPYM": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "STLA": {
       "found": true,
@@ -2913,7 +2913,7 @@
     "TLH": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "TM": {
       "found": true,
@@ -2950,7 +2950,7 @@
     "TPYP": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "TRV": {
       "found": true,
@@ -3083,7 +3083,7 @@
     "USIG": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "V": {
       "found": true,
@@ -3096,7 +3096,7 @@
     "VEA": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "VICI": {
       "found": true,
@@ -3109,7 +3109,7 @@
     "VNQI": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "VRSK": {
       "found": true,
@@ -3178,7 +3178,7 @@
     "WBA": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "WBD": {
       "found": true,
@@ -3255,27 +3255,27 @@
     "XBI": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "XFIV": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "XLP": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "XLU": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "XLV": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "XOM": {
       "found": true,
@@ -3288,7 +3288,7 @@
     "XTWO": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-07"
+      "last_checked": "2026-10-07"
     },
     "YUM": {
       "found": true,
