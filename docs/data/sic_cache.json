@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:00:23.032109+00:00",
+  "generated_at": "2026-10-12T15:26:26.193839+00:00",
   "tickers": {
     "A": {
       "found": true,
@@ -3356,7 +3356,7 @@
     "AVUV": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-12"
+      "last_checked": "2026-10-12"
     },
     "CEG": {
       "found": true,
@@ -3369,12 +3369,12 @@
     "IJR": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-12"
+      "last_checked": "2026-10-12"
     },
     "WWSYX": {
       "found": false,
       "reason": "not_in_sec_ticker_map",
-      "last_checked": "2026-09-12"
+      "last_checked": "2026-10-12"
     }
   }
 }
