@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:52:11.268614+00:00",
+  "generated_at": "2026-11-09T21:36:46.134793+00:00",
   "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml",
   "memberships": [
     {
@@ -766,6 +766,13 @@
       "party": "minority"
     },
     {
+      "committee_id": "SSAP",
+      "bioguide_id": "G000608",
+      "rank": 15,
+      "title": null,
+      "party": "majority"
+    },
+    {
       "committee_id": "SSAS",
       "bioguide_id": "W000437",
       "rank": 1,
@@ -1263,6 +1270,13 @@
       "party": "minority"
     },
     {
+      "committee_id": "SSBU",
+      "bioguide_id": "G000608",
+      "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
       "committee_id": "SSCM",
       "bioguide_id": "C001098",
       "rank": 1,
@@ -1723,6 +1737,13 @@
       "rank": 9,
       "title": null,
       "party": "minority"
+    },
+    {
+      "committee_id": "SSEV",
+      "bioguide_id": "G000608",
+      "rank": 10,
+      "title": null,
+      "party": "majority"
     },
     {
       "committee_id": "SSFI",
@@ -2477,6 +2498,13 @@
       "committee_id": "SSJU",
       "bioguide_id": "M001244",
       "rank": 11,
+      "title": null,
+      "party": "majority"
+    },
+    {
+      "committee_id": "SSJU",
+      "bioguide_id": "G000608",
+      "rank": 12,
       "title": null,
       "party": "majority"
     },

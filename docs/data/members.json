@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:52:11.268614+00:00",
+  "generated_at": "2026-11-09T21:36:46.134793+00:00",
   "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
   "members": [
     {
@@ -549,19 +549,6 @@
       "term_end": "2029-01-03"
     },
     {
-      "bioguide_id": "H001104",
-      "first_name": "Jon",
-      "last_name": "Husted",
-      "official_full_name": "Jon Husted",
-      "chamber": "senate",
-      "party": "R",
-      "party_full": "Republican",
-      "state": "OH",
-      "state_rank": "junior",
-      "term_start": "2025-01-21",
-      "term_end": "2026-11-03"
-    },
-    {
       "bioguide_id": "H001079",
       "first_name": "Cindy",
       "last_name": "Hyde-Smith",
@@ -794,19 +781,6 @@
       "state_rank": "junior",
       "term_start": "2021-01-03",
       "term_end": "2027-01-03"
-    },
-    {
-      "bioguide_id": "M001244",
-      "first_name": "Ashley",
-      "last_name": "Moody",
-      "official_full_name": "Ashley Moody",
-      "chamber": "senate",
-      "party": "R",
-      "party_full": "Republican",
-      "state": "FL",
-      "state_rank": "junior",
-      "term_start": "2025-01-21",
-      "term_end": "2026-11-03"
     },
     {
       "bioguide_id": "M000934",
